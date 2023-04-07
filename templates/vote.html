@@ -1,0 +1,3974 @@
+{% extends 'layout.html' %}
+
+{%block body %}
+<h1>Mühendisliğin enleri</h1>
+<hr>
+<form method="POST">
+    <fieldset id="group1">
+        <h2>Yılın en iyi elektronik firması</h2>
+        <input type="radio" name="q1" id="1" class="input-hidden" value="arcelik1" />
+        <label for="1">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/ELEKTRONİK/Arçelik/Arçelik.png') }}" style="background-color: white;"/>
+            <div>Arçelik</div>
+        </label>
+
+        <input type="radio" name="q1" id="2" class="input-hidden" value="bosch1" />
+        <label for="2">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/ELEKTRONİK/Bosch/1.png') }}" />
+            <div>Bosch</div>
+        </label>
+
+        <input type="radio" name="q1" id="3" class="input-hidden" value="dyson1" />
+        <label for="3">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/ELEKTRONİK/Dyson/dyson.png') }}" style="background-color: white;"/>
+            <div>Dyson</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q1" id="4" class="input-hidden" value="lenovo1" />
+        <label for="4">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/ELEKTRONİK/Lenovo/lenovo.png') }}" />
+            <div>Lenovo</div>
+        </label>
+
+        <input type="radio" name="q1" id="5" class="input-hidden" value="logitech1" />
+        <label for="5">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/ELEKTRONİK/Logitech/logitech.png') }}" style="background-color: white;"/>
+            <div>Logitech</div>
+        </label>
+
+        <input type="radio" name="q1" id="6" class="input-hidden" value="msi1" />
+        <label for="6">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/ELEKTRONİK/Msi/msi.png') }}" style="background-color: white;"/>
+            <div>Msi</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q1" id="7" class="input-hidden" value="samsung1" />
+        <label for="7">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/ELEKTRONİK/SAMSUNG/samsung.png') }}" style="background-color: white;"/>
+            <div>Samsung</div>
+        </label>
+
+        <input type="radio" name="q1" id="8" class="input-hidden" value="sony1" />
+        <label for="8">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/ELEKTRONİK/Sony/sony.png') }}" style="background-color: white;"/>
+            <div>Sony</div>
+        </label>
+
+        <input type="radio" name="q1" id="9" class="input-hidden" value="vestel1" />
+        <label for="9">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/ELEKTRONİK/Vestel/1.png') }}" style="background-color: white;"/>
+            <div>Vestel</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q1" id="10" class="input-hidden" value="xiaomi1" />
+        <label for="10">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/ELEKTRONİK/Xiaomi/xiaomi.png') }}" />
+            <div>Xiaomi</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+    <fieldset id="group2">
+        <h2>Yılın en iyi enerji firması</h2>
+        <input type="radio" name="q2" id="2.1" class="input-hidden" value="aytemiz2" />
+        <label for="2.1">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/ENERJİ/Aytemiz Petrol/aytemiz.png') }}" style="background-color: white;"/>
+            <div>Aytemiz Petrol</div>
+        </label>
+
+        <input type="radio" name="q2" id="2.2" class="input-hidden" value="dogus2" />
+        <label for="2.2">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/ENERJİ/Doğuş Enerji/dogus.jpg') }}" />
+            <div>Doğuş Enerji</div>
+        </label>
+
+        <input type="radio" name="q2" id="2.3" class="input-hidden" value="enerjisa2" />
+        <label for="2.3">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/ENERJİ/EnerjiSA/enerjisa.png') }}" style="background-color: white;"/>
+            <div>EnerjiSA</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q2" id="2.4" class="input-hidden" value="enka2" />
+        <label for="2.4">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/ENERJİ/enka/enka.jpg') }}" />
+            <div>Enka</div>
+        </label>
+
+        <input type="radio" name="q2" id="2.5" class="input-hidden" value="eren2" />
+        <label for="2.5">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/ENERJİ/Eren Holding Enerji/eren.png') }}" style="background-color: white;"/>
+            <div>Eren Holding Enerji</div>
+        </label>
+
+        <input type="radio" name="q2" id="2.6" class="input-hidden" value="go2" />
+        <label for="2.6">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/ENERJİ/GO ENERJİ/go.png') }}" style="background-color: white;"/>
+            <div>GO Enerji</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q2" id="2.7" class="input-hidden" value="kipaskaren2" />
+        <label for="2.7">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/ENERJİ/Kipaş - Karen Enerji/karen.png') }}" style="background-color: white;"/>
+            <div>Karen Enerji</div>
+        </label>
+
+        <input type="radio" name="q2" id="2.8" class="input-hidden" value="schneider2" />
+        <label for="2.8">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/ENERJİ/Schneider Elektrik/schneider.png') }}" />
+            <div>Schneider Elektrik</div>
+        </label>
+
+        <input type="radio" name="q2" id="2.9" class="input-hidden" value="shell2" />
+        <label for="2.9">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/ENERJİ/Shell/shell.png') }}" />
+            <div>Shell</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+    <fieldset id="group3">
+        <h2>Yılın en iyi gıda firması</h2>
+        <input type="radio" name="q3" id="3.1" class="input-hidden" value="algida3" />
+        <label for="3.1">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/GIDA/Algida/1.png') }}" />
+            <div>Algida</div>
+        </label>
+
+        <input type="radio" name="q3" id="3.2" class="input-hidden" value="cocacola3" />
+        <label for="3.2">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/GIDA/Coca Cola/ccı.png') }}"
+                style="background-color:black;" />
+            <div>Coca Cola</div>
+        </label>
+
+        <input type="radio" name="q3" id="3.3" class="input-hidden" value="danone3" />
+        <label for="3.3">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/GIDA/Danone/danone.png') }}" style="background-color: white;"/>
+            <div>Danone</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q3" id="3.4" class="input-hidden" value="eti3" />
+        <label for="3.4">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/GIDA/Eti/eti-logo.png') }}" style="background-color: white;"/>
+            <div>Eti</div>
+        </label>
+
+        <input type="radio" name="q3" id="3.5" class="input-hidden" value="ındomie3" />
+        <label for="3.5">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/GIDA/Indomie/ındomie.png') }}" />
+            <div>Indomie</div>
+        </label>
+
+        <input type="radio" name="q3" id="3.6" class="input-hidden" value="kent3" />
+        <label for="3.6">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/GIDA/Kent/kent.png') }}" />
+            <div>Kent</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q3" id="3.7" class="input-hidden" value="namet3" />
+        <label for="3.7">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/GIDA/Namet/Namet Logo.jpeg') }}" />
+            <div>Namet</div>
+        </label>
+
+        <input type="radio" name="q3" id="3.8" class="input-hidden" value="nilky3" />
+        <label for="3.8">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/GIDA/Nilky/nilky.png') }}" />
+            <div>Nilky</div>
+        </label>
+
+        <input type="radio" name="q3" id="3.9" class="input-hidden" value="perfetti3" />
+        <label for="3.9">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/GIDA/Perfetti van Melle/perfetti.png') }}" style="background-color: white;"/>
+            <div>Perfetti van Melle</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q3" id="3.10" class="input-hidden" value="pınar3" />
+        <label for="3.10">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/GIDA/Pınar/pınar.png') }}" style="background-color: white;"/>
+            <div>Pınar</div>
+        </label>
+
+        <input type="radio" name="q3" id="3.11" class="input-hidden" value="tat3" />
+        <label for="3.11">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/GIDA/Tat/tat logo.jpg') }}" />
+            <div>Tat</div>
+        </label>
+
+        <input type="radio" name="q3" id="3.12" class="input-hidden" value="unilever3" />
+        <label for="3.12">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/GIDA/Unilever/unilever.png') }}" style="background-color: white;"/>
+            <div>Unilever</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q3" id="3.13" class="input-hidden" value="yayla3" />
+        <label for="3.13">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/GIDA/Yayla/yayla.jpg') }}" />
+            <div>Yayla</div>
+        </label>
+
+    </fieldset>
+    <hr>
+    <br><br>
+
+    <fieldset id="group4">
+        <h2>Yılın en iyi ilaç kimya firması</h2>
+        <input type="radio" name="q4" id="4.1" class="input-hidden" value="ai4" />
+        <label for="4.1">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/İLAÇ_KİMYA/Abdi İbrahim/1.png') }}"
+                style="background-color:black;" />
+            <div>Abdi İbrahim</div>
+        </label>
+
+        <input type="radio" name="q4" id="4.2" class="input-hidden" value="dow4" />
+        <label for="4.2">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/İLAÇ_KİMYA/Dow/dow.jpg') }}" />
+            <div>Dow</div>
+        </label>
+
+        <input type="radio" name="q4" id="4.3" class="input-hidden" value="istanbulilaç4" />
+        <label for="4.3">
+            <img
+                src="{{ url_for('static', filename='images/MÜHENDİSLİK/İLAÇ_KİMYA/İstanbul İlaç/istanbulilac.jpg') }}" />
+            <div>İstanbul İlaç</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q4" id="4.4" class="input-hidden" value="jotun4" />
+        <label for="4.4">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/İLAÇ_KİMYA/Jotun/jotun.png') }}" />
+            <div>Jotun</div>
+        </label>
+
+        <input type="radio" name="q4" id="4.5" class="input-hidden" value="latro4" />
+        <label for="4.5">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/İLAÇ_KİMYA/Latro Kimya/LK_Logo.png') }}" style="background-color: white;"/>
+            <div>Latro Kimya</div>
+        </label>
+
+        <input type="radio" name="q4" id="4.6" class="input-hidden" value="linde4" />
+        <label for="4.6">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/İLAÇ_KİMYA/Linde Gaz/linde.jpg') }}" />
+            <div>Linde Gaz</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q4" id="4.7" class="input-hidden" value="nobel4" />
+        <label for="4.7">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/İLAÇ_KİMYA/Nobel İlaç/nobel.png') }}" />
+            <div>Nobel İlaç</div>
+        </label>
+
+        <input type="radio" name="q4" id="4.8" class="input-hidden" value="pg4" />
+        <label for="4.8">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/İLAÇ_KİMYA/P_G/P_G-Logo.webp') }}" style="background-color: white;"/>
+            <div>P&G</div>
+        </label>
+
+        <input type="radio" name="q4" id="4.9" class="input-hidden" value="pfizer4" />
+        <label for="4.9">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/İLAÇ_KİMYA/Pfizer/pfizer.png') }}" style="background-color: white;"/>
+            <div>Pfizer</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q4" id="4.10" class="input-hidden" value="terra4" />
+        <label for="4.10">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/İLAÇ_KİMYA/Terra İlaç/terra.jpg') }}" />
+            <div>Terra İlaç</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+    <fieldset id="group5">
+        <h2>Yılın en iyi inşaat firması</h2>
+        <input type="radio" name="q5" id="5.1" class="input-hidden" value="ant5" />
+        <label for="5.1">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/İNŞAAT/Ant Yapı/ant.jpg') }}" />
+            <div>Ant Yapı</div>
+        </label>
+
+        <input type="radio" name="q5" id="5.2" class="input-hidden" value="ccn5" />
+        <label for="5.2">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/İNŞAAT/CCN Group/CCN Group.png') }}" />
+            <div>CCN Group</div>
+        </label>
+
+        <input type="radio" name="q5" id="5.3" class="input-hidden" value="dogusinsaat5" />
+        <label for="5.3">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/İNŞAAT/Doğuş İnşaat/dogus.png') }}" />
+            <div>Doğuş İnşaat</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q5" id="5.4" class="input-hidden" value="dorce5" />
+        <label for="5.4">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/İNŞAAT/Dorçe/1.png') }}" style="background-color: white;"/>
+            <div>Dorçe</div>
+        </label>
+
+        <input type="radio" name="q5" id="5.5" class="input-hidden" value="enkainsaat5" />
+        <label for="5.5">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/İNŞAAT/Enka/enka.jpg') }}" />
+            <div>Enka</div>
+        </label>
+
+        <input type="radio" name="q5" id="5.6" class="input-hidden" value="gulermak5" />
+        <label for="5.6">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/İNŞAAT/Gülermak/gulermak.png') }}" />
+            <div>Gülermak</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+    <fieldset id="group6">
+        <h2>Yılın en iyi makine firması</h2>
+        <input type="radio" name="q6" id="6.1" class="input-hidden" value="anadoluısuzu6" />
+        <label for="6.1">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/MAKİNE/Anadolu Isuzu/ısuzu.png') }}" />
+            <div>Anadolu Isuzu</div>
+        </label>
+
+        <input type="radio" name="q6" id="6.2" class="input-hidden" value="arcelikmakine6" />
+        <label for="6.2">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/MAKİNE/Arçelik/arcelik.png') }}" style="background-color: white;"/>
+            <div>Arçelik</div>
+        </label>
+
+        <input type="radio" name="q6" id="6.3" class="input-hidden" value="bsh6" />
+        <label for="6.3">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/MAKİNE/BSH/1.png') }}" />
+            <div>BSH</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q6" id="6.4" class="input-hidden" value="fnss6" />
+        <label for="6.4">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/MAKİNE/FNSS/fnss.png') }}" style="background-color: white;"/>
+            <div>FNSS</div>
+        </label>
+
+        <input type="radio" name="q6" id="6.5" class="input-hidden" value="havelsan6" />
+        <label for="6.5">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/MAKİNE/Havelsan/havelsan.jpg') }}" />
+            <div>Havelsan</div>
+        </label>
+
+        <input type="radio" name="q6" id="6.6" class="input-hidden" value="hidromek6" />
+        <label for="6.6">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/MAKİNE/Hidromek/1.png') }}" />
+            <div>Hidromek</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q6" id="6.7" class="input-hidden" value="man6" />
+        <label for="6.7">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/MAKİNE/MAN/man.png') }}" style="background-color: white;"/>
+            <div>MAN</div>
+        </label>
+
+        <input type="radio" name="q6" id="6.8" class="input-hidden" value="mercedes6" />
+        <label for="6.8">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/MAKİNE/Mercedes benz türk/mb.png') }}" style="background-color: white;"/>
+            <div>Mercedes</div>
+        </label>
+
+        <input type="radio" name="q6" id="6.9" class="input-hidden" value="tofas6" />
+        <label for="6.9">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/MAKİNE/Tofaş/tofas.png') }}" style="background-color: white;"/>
+            <div>Tofaş</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q6" id="6.10" class="input-hidden" value="toyota6" />
+        <label for="6.10">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/MAKİNE/Toyota/png2.jpeg') }}" />
+            <div>Toyota</div>
+        </label>
+
+        <input type="radio" name="q6" id="6.11" class="input-hidden" value="tubitaksage6" />
+        <label for="6.11">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/MAKİNE/TUBİTAK SAGE/sage.png') }}"
+                style="background-color:black;" />
+            <div>Tubitak Sage</div>
+        </label>
+
+        <input type="radio" name="q6" id="6.12" class="input-hidden" value="tusas6" />
+        <label for="6.12">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/MAKİNE/TUSAŞ/tusas.png') }}" style="background-color: white;"/>
+            <div>Turkish Aerospace</div>
+        </label>
+        <br>
+
+    </fieldset>
+    <hr>
+    <br><br>
+
+    <fieldset id="group7">
+        <h2>Yılın en iyi otomotiv firması</h2>
+        <input type="radio" name="q7" id="7.1" class="input-hidden" value="ısuzuotomotıv7" />
+        <label for="7.1">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/OTOMOTİV/Anadolu Isuzu/ısuzu.png') }}" />
+            <div>Anadolu Isuzu</div>
+        </label>
+
+        <input type="radio" name="q7" id="7.2" class="input-hidden" value="dogusotomotıv7" />
+        <label for="7.2">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/OTOMOTİV/Doğuş Oto/dogus.jpg') }}" />
+            <div>Doğuş Otomotiv</div>
+        </label>
+
+        <input type="radio" name="q7" id="7.3" class="input-hidden" value="fordotosan7" />
+        <label for="7.3">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/OTOMOTİV/Ford Otosan/ford.jpg') }}" />
+            <div>Ford</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q7" id="7.4" class="input-hidden" value="honda7" />
+        <label for="7.4">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/OTOMOTİV/Honda/honda.bmp') }}" />
+            <div>Honda</div>
+        </label>
+
+        <input type="radio" name="q7" id="7.5" class="input-hidden" value="hyundai7" />
+        <label for="7.5">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/OTOMOTİV/Hyundai/hyundai.jpg') }}" />
+            <div>Hyundai</div>
+        </label>
+
+        <input type="radio" name="q7" id="7.6" class="input-hidden" value="koluman7" />
+        <label for="7.6">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/OTOMOTİV/Koluman/1.png') }}" />
+            <div>Koluman</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q7" id="7.7" class="input-hidden" value="manotomotiv7" />
+        <label for="7.7">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/OTOMOTİV/MAN/man.png') }}" style="background-color: white;"/>
+            <div>MAN</div>
+        </label>
+
+        <input type="radio" name="q7" id="7.8" class="input-hidden" value="mercedesotomotiv7" />
+        <label for="7.8">
+            <img
+                src="{{ url_for('static', filename='images/MÜHENDİSLİK/OTOMOTİV/Mercedes benz türk/mercedes.png') }}" style="background-color: white;"/>
+            <div>Mercedes</div>
+        </label>
+
+        <input type="radio" name="q7" id="7.9" class="input-hidden" value="otokoc7" />
+        <label for="7.9">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/OTOMOTİV/Otokoç/1.png') }}" />
+            <div>Otokoç</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q7" id="7.10" class="input-hidden" value="skoda7" />
+        <label for="7.10">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/OTOMOTİV/Skoda/skoda.png') }}" />
+            <div>Skoda</div>
+        </label>
+
+        <input type="radio" name="q7" id="7.11" class="input-hidden" value="suzuki7" />
+        <label for="7.11">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/OTOMOTİV/Suzuki/Suzuki1.png') }}" />
+            <div>Suzuki</div>
+        </label>
+
+        <input type="radio" name="q7" id="7.12" class="input-hidden" value="tofasotomotiv7" />
+        <label for="7.12">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/OTOMOTİV/Tofaş/tofas.png') }}" style="background-color: white;"/>
+            <div>Tofaş</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q7" id="7.13" class="input-hidden" value="toyotaotomotiv7" />
+        <label for="7.13">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/OTOMOTİV/Toyota/png2.jpeg') }}" />
+            <div>Toyota</div>
+        </label>
+
+        <input type="radio" name="q7" id="7.14" class="input-hidden" value="volvo7" />
+        <label for="7.14">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/OTOMOTİV/Volvo/1.png') }}" style="background-color: white;"/>
+            <div>Volvo</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+    <fieldset id="group8">
+        <h2>Yılın en iyi oyun firması</h2>
+        <input type="radio" name="q8" id="8.1" class="input-hidden" value="23studios8" />
+        <label for="8.1">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/OYUN/23 Studios/23 Studios Logo.png') }}" style="background-color: white;"/>
+            <div>23 Studios</div>
+        </label>
+
+        <input type="radio" name="q8" id="8.2" class="input-hidden" value="adengames8" />
+        <label for="8.2">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/OYUN/Aden Games/aden.png') }}"
+                style="background-color:black;" />
+            <div>Aden</div>
+        </label>
+
+        <input type="radio" name="q8" id="8.3" class="input-hidden" value="alictus8" />
+        <label for="8.3">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/OYUN/Alictus/alictus.png') }}" style="background-color: white;"/>
+            <div>Alictus</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q8" id="8.4" class="input-hidden" value="Creasaur8" />
+        <label for="8.4">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/OYUN/Creasaur/creasaur.png') }}" />
+            <div>Creasaur</div>
+        </label>
+
+        <input type="radio" name="q8" id="8.5" class="input-hidden" value="digigame8" />
+        <label for="8.5">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/OYUN/Digi Game Startup Studio/digi.png') }}" style="background-color: white;"/>
+            <div>Digi Game</div>
+        </label>
+
+        <input type="radio" name="q8" id="8.6" class="input-hidden" value="masomo8" />
+        <label for="8.6">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/OYUN/Masomo/logo2.png') }}" />
+            <div>Mosomo</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q8" id="8.8" class="input-hidden" value="ottogames8" />
+        <label for="8.8">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/OYUN/Otto Games/otto.png') }}" />
+            <div>Otto Games</div>
+        </label>
+
+        <input type="radio" name="q8" id="8.9" class="input-hidden" value="panteongames8" />
+        <label for="8.9">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/OYUN/Panteon games/news03.png') }}" />
+            <div>Panteon Games</div>
+        </label>
+
+        <input type="radio" name="q8" id="8.10" class="input-hidden" value="taleworlds8" />
+        <label for="8.10">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/OYUN/Taleworlds/tale.png') }}" style="background-color: white;"/>
+            <div>Taleworlds</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q8" id="8.11" class="input-hidden" value="vertigo8" />
+        <label for="8.11">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/OYUN/Vertigo/vertigo.png') }}" style="background-color: white;"/>
+            <div>Vertigo</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+    <fieldset id="group9">
+        <h2>Yılın en iyi savunma firması</h2>
+        <input type="radio" name="q9" id="9.1" class="input-hidden" value="alphavacılık9" />
+        <label for="9.1">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/SAVUNMA/Alp Havacılık/logo-tr.png') }}" style="background-color: white;"/>
+            <div>Alp Havacılık</div>
+        </label>
+
+        <input type="radio" name="q9" id="9.2" class="input-hidden" value="esensistem9" />
+        <label for="9.2">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/SAVUNMA/Esen Sistem/esen.png') }}" style="background-color: white;"/>
+            <div>Esen Sistem</div>
+        </label>
+
+        <input type="radio" name="q9" id="9.3" class="input-hidden" value="fnsssavunma9" />
+        <label for="9.3">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/SAVUNMA/FNSS/fnss.png') }}" style="background-color: white;"/>
+            <div>FNSS</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q9" id="9.4" class="input-hidden" value="havelsansavunma9" />
+        <label for="9.4">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/SAVUNMA/Havelsan/havelsan.jpg') }}" />
+            <div>Havelsan</div>
+        </label>
+
+        <input type="radio" name="q9" id="9.5" class="input-hidden" value="kolumansavunma9" />
+        <label for="9.5">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/SAVUNMA/Koluman/1.png') }}" />
+            <div>Kolumam</div>
+        </label>
+
+        <input type="radio" name="q9" id="9.6" class="input-hidden" value="milsoft9" />
+        <label for="9.6">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/SAVUNMA/Milsoft/logo.png') }}" />
+            <div>Milsoft</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q9" id="9.7" class="input-hidden" value="roketsansavunma9" />
+        <label for="9.7">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/SAVUNMA/Roketsan/1.png') }}" />
+            <div>Roketsan</div>
+        </label>
+
+        <input type="radio" name="q9" id="9.8" class="input-hidden" value="stm9" />
+        <label for="9.8">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/SAVUNMA/STM/stm.png') }}"
+                style="background-color:black;" />
+            <div>STM</div>
+        </label>
+
+        <input type="radio" name="q9" id="9.9" class="input-hidden" value="tisassavunma9" />
+        <label for="9.9">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/SAVUNMA/TİSAŞ/tisas.png') }}" />
+            <div>TİSAŞ</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q9" id="9.10" class="input-hidden" value="sagesavunma9" />
+        <label for="9.10">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/SAVUNMA/Tubitak Sage/sage.png') }}"
+                style="background-color:black;" />
+            <div>Tubitak Sage</div>
+        </label>
+
+        <input type="radio" name="q9" id="9.11" class="input-hidden" value="tusassavunma9" />
+        <label for="9.11">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/SAVUNMA/TUSAŞ/tusas.png') }}" style="background-color: white;"/>
+            <div>TUSAŞ</div>
+        </label>
+        <br>
+    </fieldset>
+    <hr>
+    <br><br>
+    <fieldset id="group10">
+        <h2>Yılın en iyi yazılım firması</h2>
+        <input type="radio" name="q10" id="10.1" class="input-hidden" value="adesso10" />
+        <label for="10.1">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/YAZILIM/adesso/adesso.png') }}" style="background-color: white;"/>
+            <div>adesso</div>
+        </label>
+
+        <input type="radio" name="q10" id="10.2" class="input-hidden" value="akınsoft10" />
+        <label for="10.2">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/YAZILIM/Akınsoft/akinsoft_logo.png') }}" style="background-color: white;"/>
+            <div>Akınsoft</div>
+        </label>
+
+        <input type="radio" name="q10" id="10.3" class="input-hidden" value="btech10" />
+        <label for="10.3">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/YAZILIM/Btech/logo.png') }}" style="background-color: white;"/>
+            <div>Btech</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q10" id="10.4" class="input-hidden" value="dogusteknoloji10" />
+        <label for="10.4">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/YAZILIM/Doğuş Teknoloji/logo.png') }}" style="background-color: white;"/>
+            <div>Doğuş Teknoloji</div>
+        </label>
+
+        <input type="radio" name="q10" id="10.5" class="input-hidden" value="ekinsoftware10" />
+        <label for="10.5">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/YAZILIM/Ekin Software/logo.png') }}" style="background-color: white;"/>
+            <div>Ekin Software</div>
+        </label>
+
+        <input type="radio" name="q10" id="10.6" class="input-hidden" value="esenyazilim10" />
+        <label for="10.6">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/YAZILIM/Esen Sistem/logo.png') }}" style="background-color: white;"/>
+            <div>Esen Sistem</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q10" id="10.7" class="input-hidden" value="havelsanyazilim10" />
+        <label for="10.7">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/YAZILIM/Havelsan/logo.jpg') }}" />
+            <div>Havelsan</div>
+        </label>
+
+        <input type="radio" name="q10" id="10.8" class="input-hidden" value="ikas10" />
+        <label for="10.8">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/YAZILIM/İkas/logo.png') }}"
+                style="background-color:black;" />
+            <div>İkas</div>
+        </label>
+
+        <input type="radio" name="q10" id="10.9" class="input-hidden" value="insider10" />
+        <label for="10.9">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/YAZILIM/Insider/logo.png') }}"
+                style="background-color:black;" />
+            <div>Insider</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q10" id="10.10" class="input-hidden" value="jotform10" />
+        <label for="10.10">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/YAZILIM/Jotform/logo.png') }}" />
+            <div>Jotform</div>
+        </label>
+
+        <input type="radio" name="q10" id="10.11" class="input-hidden" value="logo10" />
+        <label for="10.11">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/YAZILIM/Logo Yazılım/logo.png') }}"
+                style="background-color:black;" />
+            <div>Logo Yazılım</div>
+        </label>
+
+        <input type="radio" name="q10" id="10.12" class="input-hidden" value="milsoft10" />
+        <label for="10.12">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/YAZILIM/Milsoft/logo.png') }}" />
+            <div>Milsoft</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q10" id="10.13" class="input-hidden" value="somera10" />
+        <label for="10.13">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/YAZILIM/Somera/logo.png') }}" style="background-color: white;"/>
+            <div>Somera</div>
+        </label>
+
+        <input type="radio" name="q10" id="10.14" class="input-hidden" value="sony10" />
+        <label for="10.14">
+            <img src="{{ url_for('static', filename='images/MÜHENDİSLİK/YAZILIM/Sony/logo.png') }}" style="background-color: white;"/>
+            <div>Sony</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+    <h1>Yönetim-Finansın enleri</h1>
+    <hr>
+    <fieldset id="group12">
+        <h2>Yılın en iyi dayanıklı tüketim markası</h2>
+        <input type="radio" name="q12" id="12.1" class="input-hidden" value="arçelik12" />
+        <label for="12.1">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/DAYANIKLI TÜKETİM/Arçelik/logo.png') }}" style="background-color: white;"/>
+            <div>Arçelik</div>
+        </label>
+
+        <input type="radio" name="q12" id="12.2" class="input-hidden" value="bosch12" />
+        <label for="12.2">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/DAYANIKLI TÜKETİM/BOSCH/logo.png') }}" style="background-color: white;"/>
+            <div>BOSCH</div>
+        </label>
+
+        <input type="radio" name="q12" id="12.3" class="input-hidden" value="brisa12" />
+        <label for="12.3">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/DAYANIKLI TÜKETİM/Brisa/logo.JPG') }}" />
+            <div>Brisa</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q12" id="12.4" class="input-hidden" value="continental12" />
+        <label for="12.4">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/DAYANIKLI TÜKETİM/Continental/logo.jpg') }}" />
+            <div>Continental</div>
+        </label>
+
+        <input type="radio" name="q12" id="12.5" class="input-hidden" value="evidea12" />
+        <label for="12.5">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/DAYANIKLI TÜKETİM/Evidea/logo.png') }}" style="background-color: white;"/>
+            <div>Evidea</div>
+        </label>
+
+        <input type="radio" name="q12" id="12.6" class="input-hidden" value="karsan12" />
+        <label for="12.6">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/DAYANIKLI TÜKETİM/Karsan Otomotiv/logo.png') }}" style="background-color: white;"/>
+            <div>Karsan Otomotiv</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q12" id="12.7" class="input-hidden" value="man12" />
+        <label for="12.7">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/DAYANIKLI TÜKETİM/MAN/logo.png') }}" style="background-color: white;"/>
+            <div>MAN</div>
+        </label>
+
+        <input type="radio" name="q12" id="12.8" class="input-hidden" value="mercedes12" />
+        <label for="12.8">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/DAYANIKLI TÜKETİM/Mercedes benz Türk/logo.png') }}" style="background-color: white;"/>
+            <div>Mercedes</div>
+        </label>
+
+        <input type="radio" name="q12" id="12.9" class="input-hidden" value="msi12" />
+        <label for="12.9">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/DAYANIKLI TÜKETİM/MSI/logo.png') }}" style="background-color: white;"/>
+            <div>MSI</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q12" id="12.10" class="input-hidden" value="samsung12" />
+        <label for="12.10">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/DAYANIKLI TÜKETİM/Samsung/logo.png') }}" style="background-color: white;"/>
+            <div>Samsung</div>
+        </label>
+
+        <input type="radio" name="q12" id="12.11" class="input-hidden" value="xiaomi12" />
+        <label for="12.11">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/DAYANIKLI TÜKETİM/Xiaomi/logo.png') }}" />
+            <div>Xiaomi</div>
+        </label>
+
+        <input type="radio" name="q12" id="12.12" class="input-hidden" value="simfer12" />
+        <label for="12.12">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/DAYANIKLI TÜKETİM/Simfer/logo.png') }}" />
+            <div>Simfer</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+    <fieldset id="group13">
+        <h2>Yılın en iyi denetim danışmanlık firması</h2>
+        <input type="radio" name="q13" id="13.1" class="input-hidden" value="simfer13" />
+        <label for="13.1">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/DENETİM DANIŞMANLIK/Deloitte/logo.png') }}" />
+            <div>Deloitte</div>
+        </label>
+
+        <input type="radio" name="q13" id="13.2" class="input-hidden" value="ey13" />
+        <label for="13.2">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/DENETİM DANIŞMANLIK/EY/logo.png') }}" style="background-color: white;"/>
+            <div>EY</div>
+        </label>
+
+        <input type="radio" name="q13" id="13.3" class="input-hidden" value="grantthronton13" />
+        <label for="13.3">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/DENETİM DANIŞMANLIK/Grant Thronton Ankara/logo.jpg') }}" />
+            <div>Grant Thronton Ankara</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q13" id="13.4" class="input-hidden" value="KPMG13" />
+        <label for="13.4">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/DENETİM DANIŞMANLIK/KPMG/logo.png') }}" />
+            <div>KPMG</div>
+        </label>
+
+        <input type="radio" name="q13" id="13.5" class="input-hidden" value="sysart13" />
+        <label for="13.5">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/DENETİM DANIŞMANLIK/SYSART/logo.png') }}" />
+            <div>SysArt</div>
+        </label>
+
+        <input type="radio" name="q13" id="13.6" class="input-hidden" value="zenna13" />
+        <label for="13.6">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/DENETİM DANIŞMANLIK/Zenna Danışmanlık/logo.jpg') }}" />
+            <div>Zenna Danışmanlık</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+
+    <fieldset id="group14">
+        <h2>Yılın en iyi dijitalleşen&inovatif firması</h2>
+        <input type="radio" name="q14" id="14.1" class="input-hidden" value="acıbadem14" />
+        <label for="14.1">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/DİJİTALLEŞEN-İNOVATİF/Acıbadem/logo.png') }}" style="background-color: white;"/>
+            <div>Acıbadem</div>
+        </label>
+
+        <input type="radio" name="q14" id="14.2" class="input-hidden" value="allianz14" />
+        <label for="14.2">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/DİJİTALLEŞEN-İNOVATİF/Allianz/logo.png') }}" style="background-color: white;"/>
+            <div>Allianz</div>
+        </label>
+
+        <input type="radio" name="q14" id="14.3" class="input-hidden" value="bsh14" />
+        <label for="14.3">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/DİJİTALLEŞEN-İNOVATİF/BSH/logo.png') }}" style="background-color: white;"/>
+            <div>BSH</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q14" id="14.4" class="input-hidden" value="garanti14" />
+        <label for="14.4">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/DİJİTALLEŞEN-İNOVATİF/Garanti BBVA/1.png') }}"
+                style="background-color:black;" />
+            <div>Garanti BBVA</div>
+        </label>
+
+        <input type="radio" name="q14" id="14.5" class="input-hidden" value="getir14" />
+        <label for="14.5">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/DİJİTALLEŞEN-İNOVATİF/Getir/logo.png') }}" />
+            <div>Getir</div>
+        </label>
+
+        <input type="radio" name="q14" id="14.6" class="input-hidden" value="hangikredi14" />
+        <label for="14.6">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/DİJİTALLEŞEN-İNOVATİF/Hangikredi.com/logo.png') }}" style="background-color: white;"/>
+            <div>Hangikredi.com</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q14" id="14.7" class="input-hidden" value="hepsiburada14" />
+        <label for="14.7">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/DİJİTALLEŞEN-İNOVATİF/Hepsi Burada/logo.png') }}" />
+            <div>Hepsiburada</div>
+        </label>
+
+        <input type="radio" name="q14" id="14.8" class="input-hidden" value="koton14" />
+        <label for="14.8">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/DİJİTALLEŞEN-İNOVATİF/Koton/logo.png') }}" />
+            <div>Koton</div>
+        </label>
+
+        <input type="radio" name="q14" id="14.9" class="input-hidden" value="migros14" />
+        <label for="14.9">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/DİJİTALLEŞEN-İNOVATİF/Migros/1.png') }}" style="background-color: white;"/>
+            <div>Migros</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q14" id="14.10" class="input-hidden" value="otokoc14" />
+        <label for="14.10">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/DİJİTALLEŞEN-İNOVATİF/Otokoç/logo.jpg') }}" />
+            <div>Otokoç</div>
+        </label>
+
+        <input type="radio" name="q14" id="14.11" class="input-hidden" value="siemens14" />
+        <label for="14.11">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/DİJİTALLEŞEN-İNOVATİF/Siemens/1.png') }}" />
+            <div>Siemens</div>
+        </label>
+
+        <input type="radio" name="q14" id="14.12" class="input-hidden" value="trendyol14" />
+        <label for="14.12">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/DİJİTALLEŞEN-İNOVATİF/Trendyol/logo.png') }}" style="background-color: white;"/>
+            <div>Trendyol</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q14" id="14.13" class="input-hidden" value="turkcell14" />
+        <label for="14.13">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/DİJİTALLEŞEN-İNOVATİF/Turkcell/1.png') }}" />
+            <div>Turkcell</div>
+        </label>
+
+        <input type="radio" name="q14" id="14.14" class="input-hidden" value="vodafone14" />
+        <label for="14.14">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/DİJİTALLEŞEN-İNOVATİF/VODAFONE/1.png') }}" />
+            <div>Vodafone</div>
+        </label>
+
+        <input type="radio" name="q14" id="14.15" class="input-hidden" value="unilever14" />
+        <label for="14.15">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/DİJİTALLEŞEN-İNOVATİF/logo.png') }}" style="background-color: white;"/>
+            <div>Unilever</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+    <fieldset id="group15">
+        <h2>Yılın en iyi e-ticaret firması</h2>
+        <input type="radio" name="q15" id="15.1" class="input-hidden" value="biletinial15" />
+        <label for="15.1">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/E-TİCARET/Biletinial/logo.png') }}" />
+            <div>Biletinial</div>
+        </label>
+
+        <input type="radio" name="q15" id="15.2" class="input-hidden" value="bynogame15" />
+        <label for="15.2">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/E-TİCARET/ByNoGame/logo.png') }}" />
+            <div>ByNoGame</div>
+        </label>
+
+        <input type="radio" name="q15" id="15.3" class="input-hidden" value="ciceksepeti15" />
+        <label for="15.3">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/E-TİCARET/Çiçeksepeti/1.png') }}" style="background-color: white;"/>
+            <div>Çiçeksepeti</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q15" id="15.4" class="input-hidden" value="getir15" />
+        <label for="15.4">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/E-TİCARET/Getir/logo.png') }}" />
+            <div>Getir</div>
+        </label>
+
+        <input type="radio" name="q15" id="15.5" class="input-hidden" value="hepsiburada15" />
+        <label for="15.5">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/E-TİCARET/Hepsi Burada/logo.png') }}" />
+            <div>Hepsiburada</div>
+        </label>
+
+        <input type="radio" name="q15" id="15.6" class="input-hidden" value="ikas15" />
+        <label for="15.6">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/E-TİCARET/İkas/logo.png') }}" />
+            <div>İkas</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q15" id="15.7" class="input-hidden" value="lcw15" />
+        <label for="15.7">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/E-TİCARET/LC Waikiki/1.png') }}" style="background-color: white;"/>
+            <div>LC Waikiki</div>
+        </label>
+
+        <input type="radio" name="q15" id="15.8" class="input-hidden" value="migros15" />
+        <label for="15.8">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/E-TİCARET/Migros Sanal Market/logo.png') }}" style="background-color: white;"/>
+            <div>Migros Sanal Market</div>
+        </label>
+
+        <input type="radio" name="q15" id="15.9" class="input-hidden" value="sahibinden15" />
+        <label for="15.9">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/E-TİCARET/Sahibinden/1.png') }}" />
+            <div>Sahibinden</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q15" id="15.10" class="input-hidden" value="tatilcom15" />
+        <label for="15.10">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/E-TİCARET/Tatil.com/logo.png') }}" />
+            <div>Tatil.com</div>
+        </label>
+
+        <input type="radio" name="q15" id="15.11" class="input-hidden" value="trendyol15" />
+        <label for="15.11">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/E-TİCARET/Trendyol/logo.png') }}" style="background-color: white;"/>
+            <div>Trendyol</div>
+        </label>
+
+        <input type="radio" name="q15" id="15.12" class="input-hidden" value="yemeksepeti15" />
+        <label for="15.12">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/E-TİCARET/yemeksepeti/1.png') }}" />
+            <div>yemeksepeti</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+    <fieldset id="group16">
+        <h2>Yılın en iyi girişimi</h2>
+        <input type="radio" name="q16" id="16.1" class="input-hidden" value="getir16" />
+        <label for="16.1">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/GİRİŞİMCİLİK/Getir/logo.png') }}" />
+            <div>Getir</div>
+        </label>
+
+        <input type="radio" name="q16" id="16.2" class="input-hidden" value="hop16" />
+        <label for="16.2">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/GİRİŞİMCİLİK/HOP Scooter/logo.png') }}" style="background-color: white;"/>
+            <div>HOP Scooter</div>
+        </label>
+
+        <input type="radio" name="q16" id="16.3" class="input-hidden" value="ikas16" />
+        <label for="16.3">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/GİRİŞİMCİLİK/İkas/logo.png') }}" />
+            <div>İkas</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q16" id="16.4" class="input-hidden" value="kolay16" />
+        <label for="16.4">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/GİRİŞİMCİLİK/Kolay IK/logo.png') }}" />
+            <div>Kolay IK</div>
+        </label>
+
+        <input type="radio" name="q16" id="16.5" class="input-hidden" value="macro16" />
+        <label for="16.5">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/GİRİŞİMCİLİK/MakroMusıc Ataberk Özaydın/1.png') }}" />
+            <div>MakroMusic</div>
+        </label>
+
+        <input type="radio" name="q16" id="16.6" class="input-hidden" value="rs16" />
+        <label for="16.6">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/GİRİŞİMCİLİK/RS Research/1.png') }}" style="background-color: white;"/>
+            <div>RS Reasearch</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q16" id="16.7" class="input-hidden" value="tolga16" />
+        <label for="16.7">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/GİRİŞİMCİLİK/Tolga Öztürk/logo.png') }}" style="background-color: white;"/>
+            <div>Tolga Öztürk</div>
+        </label>
+
+        <input type="radio" name="q16" id="16.8" class="input-hidden" value="trendyol16" />
+        <label for="16.8">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/GİRİŞİMCİLİK/Trendyol/logo.png') }}" style="background-color: white;"/>
+            <div>Trendyol</div>
+        </label>
+
+        <input type="radio" name="q16" id="16.9" class="input-hidden" value="webtures16" />
+        <label for="16.9">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/GİRİŞİMCİLİK/Webtures/logo.png') }}" />
+            <div>Webtures</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q16" id="16.10" class="input-hidden" value="wewalk16" />
+        <label for="16.10">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/GİRİŞİMCİLİK/WeWalk/1.png') }}" />
+            <div>WeWalk</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+    <fieldset id="group17">
+        <h2>Yılın en iyi giyim markası</h2>
+        <input type="radio" name="q17" id="17.1" class="input-hidden" value="altınyıldız17" />
+        <label for="17.1">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/GİYİM MARKASI/Altınyıldız/1.png') }}" />
+            <div>Altınyıldız</div>
+        </label>
+
+        <input type="radio" name="q17" id="17.2" class="input-hidden" value="defacto17" />
+        <label for="17.2">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/GİYİM MARKASI/Defacto/1.png') }}" style="background-color: white;"/>
+            <div>Defacto</div>
+        </label>
+
+        <input type="radio" name="q17" id="17.3" class="input-hidden" value="koton17" />
+        <label for="17.3">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/GİYİM MARKASI/Koton/logo.png') }}" />
+            <div>Koton</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q17" id="17.4" class="input-hidden" value="lcw17" />
+        <label for="17.4">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/GİYİM MARKASI/LC Waikiki/1.png') }}" style="background-color: white;"/>
+            <div>LC Waikiki</div>
+        </label>
+
+        <input type="radio" name="q17" id="17.5" class="input-hidden" value="lescon17" />
+        <label for="17.5">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/GİYİM MARKASI/Lescon/logo.png') }}" />
+            <div>Lescon</div>
+        </label>
+
+        <input type="radio" name="q17" id="17.6" class="input-hidden" value="loft17" />
+        <label for="17.6">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/GİYİM MARKASI/Loft/logo.png') }}" />
+            <div>Loft</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q17" id="17.7" class="input-hidden" value="mavi17" />
+        <label for="17.7">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/GİYİM MARKASI/Mavi/logo.jpg') }}" />
+            <div>Mavi</div>
+        </label>
+
+        <input type="radio" name="q17" id="17.8" class="input-hidden" value="sarar17" />
+        <label for="17.8">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/GİYİM MARKASI/Sarar/logo.png') }}" />
+            <div>Sarar</div>
+        </label>
+
+        <input type="radio" name="q17" id="17.9" class="input-hidden" value="sac17" />
+        <label for="17.9">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/GİYİM MARKASI/Silk and Cashmere/logo.png') }}" />
+            <div>Silk and Cashmere</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q17" id="17.10" class="input-hidden" value="northface17" />
+        <label for="17.10">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/GİYİM MARKASI/The North Face/logo.png') }}" style="background-color: white;"/>
+            <div>The North Face</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+
+    <fieldset id="group18">
+        <h2>Yılın en iyi grup şirketi</h2>
+        <input type="radio" name="q18" id="18.1" class="input-hidden" value="anadolu18" />
+        <label for="18.1">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/GRUP ŞİRKETLER/Anadolu Grubu/logo.jpg') }}" />
+            <div>Anadolu Grubu</div>
+        </label>
+
+        <input type="radio" name="q18" id="18.2" class="input-hidden" value="bilkent18" />
+        <label for="18.2">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/GRUP ŞİRKETLER/Bilkent Holding/logo.png') }}" style="background-color: white;"/>
+            <div>Bilkent Holding</div>
+        </label>
+
+        <input type="radio" name="q18" id="18.3" class="input-hidden" value="ccn18" />
+        <label for="18.3">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/GRUP ŞİRKETLER/CCN Group/logo.png') }}" />
+            <div>CCN Group</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q18" id="18.4" class="input-hidden" value="celebi18" />
+        <label for="18.4">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/GRUP ŞİRKETLER/Çelebi Holding/logo.png') }}" style="background-color: white;"/>
+            <div>Çelebi Holding</div>
+        </label>
+
+        <input type="radio" name="q18" id="18.5" class="input-hidden" value="dogus18" />
+        <label for="18.5">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/GRUP ŞİRKETLER/Doğuş Grubu/logo.jpg') }}" />
+            <div>Doğuş Grubu</div>
+        </label>
+
+        <input type="radio" name="q18" id="18.6" class="input-hidden" value="enka18" />
+        <label for="18.6">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/GRUP ŞİRKETLER/Enka/logo.jpg') }}" />
+            <div>Enka</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q18" id="18.7" class="input-hidden" value="kibar18" />
+        <label for="18.7">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/GRUP ŞİRKETLER/Kibar Holding/logo.png') }}" style="background-color: white;"/>
+            <div>Kibar Holding</div>
+        </label>
+
+        <input type="radio" name="q18" id="18.8" class="input-hidden" value="kipas18" />
+        <label for="18.8">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/GRUP ŞİRKETLER/Kipaş Holding/logo.png') }}" style="background-color: white;"/>
+            <div>Kipaş Holding</div>
+        </label>
+
+        <input type="radio" name="q18" id="18.9" class="input-hidden" value="sanko18" />
+        <label for="18.9">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/GRUP ŞİRKETLER/Sanko Holding/1.png') }}" />
+            <div>Sanko Holding</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q18" id="18.10" class="input-hidden" value="yıldız18" />
+        <label for="18.10">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/GRUP ŞİRKETLER/Yıldız Holding/logo.png') }}" style="background-color: white;"/>
+            <div>Yıldız Holding</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+    <fieldset id="group19">
+        <h2>Yılın en iyi hızlı tüketim şirketi</h2>
+        <input type="radio" name="q19" id="19.1" class="input-hidden" value="alo19" />
+        <label for="19.1">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/HIZLI TÜKETİM/Alo/logo.webp') }}" />
+            <div>Alo</div>
+        </label>
+
+        <input type="radio" name="q19" id="19.2" class="input-hidden" value="ariel19" />
+        <label for="19.2">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/HIZLI TÜKETİM/Ariel/logo.webp') }}" />
+            <div>Ariel</div>
+        </label>
+
+        <input type="radio" name="q19" id="19.3" class="input-hidden" value="cocacola19" />
+        <label for="19.3">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/HIZLI TÜKETİM/Coca Cola/logo.png') }}"
+                style="background-color:black;" />
+            <div>Coca Cola</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q19" id="19.4" class="input-hidden" value="colgate19" />
+        <label for="19.4">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/HIZLI TÜKETİM/Colgate/logo.png') }}" style="background-color: white;"/>
+            <div>Colgate</div>
+        </label>
+
+        <input type="radio" name="q19" id="19.5" class="input-hidden" value="danone19" />
+        <label for="19.5">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/HIZLI TÜKETİM/Danone/logo.png') }}" style="background-color: white;"/>
+            <div>Danone</div>
+        </label>
+
+        <input type="radio" name="q19" id="19.6" class="input-hidden" value="eti19" />
+        <label for="19.6">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/HIZLI TÜKETİM/ETİ/logo.png') }}" style="background-color: white;"/>
+            <div>ETİ</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q19" id="19.7" class="input-hidden" value="feast19" />
+        <label for="19.7">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/HIZLI TÜKETİM/Feast/1.png') }}" />
+            <div>Feast</div>
+        </label>
+
+        <input type="radio" name="q19" id="19.8" class="input-hidden" value="indomie19" />
+        <label for="19.8">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/HIZLI TÜKETİM/Indomie/logo.png') }}" />
+            <div>Indomie</div>
+        </label>
+
+        <input type="radio" name="q19" id="19.9" class="input-hidden" value="milka19" />
+        <label for="19.9">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/HIZLI TÜKETİM/milka/logo.png') }}" style="background-color: white;"/>
+            <div>Milka</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q19" id="19.10" class="input-hidden" value="mondelez19" />
+        <label for="19.10">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/HIZLI TÜKETİM/Mondelez International/logo.png') }}"
+                style="background-color:black;" />
+            <div>Mondelez <br> International</div>
+        </label>
+
+        <input type="radio" name="q19" id="19.11" class="input-hidden" value="namet19" />
+        <label for="19.11">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/HIZLI TÜKETİM/Namet Gıda/logo.jpg') }}" />
+            <div>Namet <br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+
+        <input type="radio" name="q19" id="19.12" class="input-hidden" value="nilky19" />
+        <label for="19.12">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/HIZLI TÜKETİM/Nilky/logo.png') }}" />
+            <div>Nilky <br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+        <br>
+
+        <input type="radio" name="q19" id="19.13" class="input-hidden" value="oreo19" />
+        <label for="19.13">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/HIZLI TÜKETİM/oreo/logo.png') }}" style="background-color: white;"/>
+            <div>Oreo</div>
+        </label>
+
+        <input type="radio" name="q19" id="19.14" class="input-hidden" value="pg19" />
+        <label for="19.14">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/HIZLI TÜKETİM/P_G/logo.webp') }}" />
+            <div>P&G</div>
+        </label>
+
+        <input type="radio" name="q19" id="19.15" class="input-hidden" value="pinar19" />
+        <label for="19.15">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/HIZLI TÜKETİM/Pınar/logo.png') }}" style="background-color: white;"/>
+            <div>Pınar</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q19" id="19.16" class="input-hidden" value="tat19" />
+        <label for="19.16">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/HIZLI TÜKETİM/Tat/logo.jpg') }}" />
+            <div>Tat</div>
+        </label>
+
+        <input type="radio" name="q19" id="19.17" class="input-hidden" value="ulker19" />
+        <label for="19.17">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/HIZLI TÜKETİM/ÜLKER/logo.jpg') }}" />
+            <div>Ülker</div>
+        </label>
+
+        <input type="radio" name="q19" id="19.18" class="input-hidden" value="unilever19" />
+        <label for="19.18">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/HIZLI TÜKETİM/Unilever/logo.png') }}" style="background-color: white;"/>
+            <div>Unilever</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+    <fieldset id="group20">
+        <h2>Yılın en iyi iş insanı</h2>
+        <input type="radio" name="q20" id="20.1" class="input-hidden" value="acun20" />
+        <label for="20.1">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/İŞ İNSANI/Acun Ilıcalı/1.jpg') }}" />
+            <div>Acun Ilıcalı</div>
+        </label>
+
+        <input type="radio" name="q20" id="20.2" class="input-hidden" value="burak20" />
+        <label for="20.2">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/İŞ İNSANI/Burak Bozkurt/1.png') }}" />
+            <div>Burak Bozkurt</div>
+        </label>
+
+        <input type="radio" name="q20" id="20.3" class="input-hidden" value="eray20" />
+        <label for="20.3">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/İŞ İNSANI/Eray Uğurelli/1.jpeg') }}" />
+            <div>Eray Uğurelli</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q20" id="20.4" class="input-hidden" value="mustafa20" />
+        <label for="20.4">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/İŞ İNSANI/İKAS/1.jpeg') }}" />
+            <div>Mustafa Namoğlu</div>
+        </label>
+
+        <input type="radio" name="q20" id="20.5" class="input-hidden" value="kaas20" />
+        <label for="20.5">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/İŞ İNSANI/Kaan Gülten/1.jpg') }}" />
+            <div>Kaan Gülten</div>
+        </label>
+
+        <input type="radio" name="q20" id="20.6" class="input-hidden" value="neslihan20" />
+        <label for="20.6">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/İŞ İNSANI/Neslihan Gündüz/1.jpg') }}" />
+            <div>Neslihan Gündüz</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q20" id="20.7" class="input-hidden" value="onur20" />
+        <label for="20.7">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/İŞ İNSANI/Onur Şekerlisoy/1.jpeg') }}" />
+            <div>Onur Şekerlisoy</div>
+        </label>
+
+        <input type="radio" name="q20" id="20.8" class="input-hidden" value="sahin20" />
+        <label for="20.8">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/İŞ İNSANI/Şahin Karaaslan/1.png') }}" />
+            <div>Şahin Karaaslan</div>
+        </label>
+
+        <input type="radio" name="q20" id="20.9" class="input-hidden" value="yigit20" />
+        <label for="20.9">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/İŞ İNSANI/Yiğit Kipman/1.jpg') }}" />
+            <div>Yiğit Kipman</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q20" id="20.10" class="input-hidden" value="zeynep20" />
+        <label for="20.10">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/İŞ İNSANI/Zeynep Aker/1.jpeg') }}" />
+            <div>Zeynep Aker</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+    <fieldset id="group21">
+        <h2>Yılın en iyi kozmetik&kişisel bakım firması</h2>
+        <input type="radio" name="q21" id="21.1" class="input-hidden" value="avon21" />
+        <label for="21.1">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/KOZMETİK - KİŞİSEL BAKIM/Avon/2.png') }}" />
+            <div>Avon</div>
+        </label>
+
+        <input type="radio" name="q21" id="21.2" class="input-hidden" value="cosmed21" />
+        <label for="21.2">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/KOZMETİK - KİŞİSEL BAKIM/Cosmed/1.png') }}" style="background-color: white;"/>
+            <div>Cosmed</div>
+        </label>
+
+        <input type="radio" name="q21" id="21.3" class="input-hidden" value="flormar21" />
+        <label for="21.3">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/KOZMETİK - KİŞİSEL BAKIM/Flormar/2.png') }}" style="background-color: white;"/>
+            <div>Flormar</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q21" id="21.4" class="input-hidden" value="gratis21" />
+        <label for="21.4">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/KOZMETİK - KİŞİSEL BAKIM/Gratis/1.png') }}" style="background-color: white;"/>
+            <div>Gratis</div>
+        </label>
+
+        <input type="radio" name="q21" id="21.5" class="input-hidden" value="iva21" />
+        <label for="21.5">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/KOZMETİK - KİŞİSEL BAKIM/IVA NATURA/1.jpg') }}" />
+            <div>IVA Natura</div>
+        </label>
+
+        <input type="radio" name="q21" id="21.6" class="input-hidden" value="mad21" />
+        <label for="21.6">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/KOZMETİK - KİŞİSEL BAKIM/MAD Perfume/1.jpg') }}" />
+            <div>MAD Perfume</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q21" id="21.7" class="input-hidden" value="oralb21" />
+        <label for="21.7">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/KOZMETİK - KİŞİSEL BAKIM/Oral-B/1.webp') }}" />
+            <div>Oral-B</div>
+        </label>
+
+        <input type="radio" name="q21" id="21.8" class="input-hidden" value="pastel21" />
+        <label for="21.8">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/KOZMETİK - KİŞİSEL BAKIM/Pastel Kozmetik/2.png') }}" style="background-color: white;"/>
+            <div>Pastel Kozmetik</div>
+        </label>
+
+        <input type="radio" name="q21" id="21.9" class="input-hidden" value="purest21" />
+        <label for="21.9">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/KOZMETİK - KİŞİSEL BAKIM/The Purest/1.png') }}" style="background-color: white;"/>
+            <div>The Purest</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q21" id="21.10" class="input-hidden" value="yves21" />
+        <label for="21.10">
+            <img
+                src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/KOZMETİK - KİŞİSEL BAKIM/Yves Rocher/1.jpg') }}" />
+            <div>Yves Rocher</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+    <fieldset id="group22">
+        <h2>Yılın en iyi restoran zinciri</h2>
+        <input type="radio" name="q22" id="22.1" class="input-hidden" value="dominos22" />
+        <label for="22.1">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/RESTORAN ZİNCİRİ/Dominos/1.png') }}" style="background-color: white;"/>
+            <div>Dominos</div>
+        </label>
+
+        <input type="radio" name="q22" id="22.2" class="input-hidden" value="hmbrgr22" />
+        <label for="22.2">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/RESTORAN ZİNCİRİ/HMBRGR/1.png') }}" />
+            <div>HMBRGR</div>
+        </label>
+
+        <input type="radio" name="q22" id="22.3" class="input-hidden" value="kdunyası22" />
+        <label for="22.3">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/RESTORAN ZİNCİRİ/Kahve Dünyası/1.png') }}" />
+            <div>Kahve Dünyası</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q22" id="22.4" class="input-hidden" value="kfc22" />
+        <label for="22.4">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/RESTORAN ZİNCİRİ/KFC/1.png') }}" />
+            <div>KFC</div>
+        </label>
+
+        <input type="radio" name="q22" id="22.5" class="input-hidden" value="kyusuf22" />
+        <label for="22.5">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/RESTORAN ZİNCİRİ/Köfteci Yusuf/1.png') }}" />
+            <div>Köfteci Yusuf</div>
+        </label>
+
+        <input type="radio" name="q22" id="22.6" class="input-hidden" value="komagene22" />
+        <label for="22.6">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/RESTORAN ZİNCİRİ/KOMAGENE/1.jpg') }}" />
+            <div>Komagene</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q22" id="22.7" class="input-hidden" value="mado22" />
+        <label for="22.7">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/RESTORAN ZİNCİRİ/MADO/1.png') }}" />
+            <div>MADO</div>
+        </label>
+
+        <input type="radio" name="q22" id="22.8" class="input-hidden" value="sayrem22" />
+        <label for="22.8">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/RESTORAN ZİNCİRİ/Sayrem/1.jpg') }}" />
+            <div>Sayrem</div>
+        </label>
+
+        <input type="radio" name="q22" id="22.9" class="input-hidden" value="sr22" />
+        <label for="22.9">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/RESTORAN ZİNCİRİ/SR Döner/1.png') }}" />
+            <div>SR Döner</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q22" id="22.10" class="input-hidden" value="starbucks22" />
+        <label for="22.10">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/RESTORAN ZİNCİRİ/Starbucks/1.png') }}" />
+            <div>Starbucks</div>
+        </label>
+
+        <input type="radio" name="q22" id="22.11" class="input-hidden" value="timboo22" />
+        <label for="22.11">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/RESTORAN ZİNCİRİ/Timboo Cafe/1.jpg') }}" />
+            <div>Timboo Cafe</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+    <fieldset id="group24">
+        <h2>Yılın en iyi telekomünikasyon firması</h2>
+        <input type="radio" name="q24" id="24.1" class="input-hidden" value="dsmart24" />
+        <label for="24.1">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/TELEKOMÜNİKASYON/D-Smart/1.jpg') }}" />
+            <div>D-Smart</div>
+        </label>
+
+        <input type="radio" name="q24" id="24.2" class="input-hidden" value="tt24" />
+        <label for="24.2">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/TELEKOMÜNİKASYON/Türk Telekom/1.png') }}" />
+            <div>Türk Telekom</div>
+        </label>
+
+        <input type="radio" name="q24" id="24.3" class="input-hidden" value="turkcell24" />
+        <label for="24.3">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/TELEKOMÜNİKASYON/Turkcell/1.webp') }}" />
+            <div>Turkcell</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q24" id="24.4" class="input-hidden" value="vodafone24" />
+        <label for="24.4">
+            <img src="{{ url_for('static', filename='images/YÖNETİM-FİNANS/TELEKOMÜNİKASYON/Vodafone/1.png') }}" />
+            <div>Vodafone</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+    <h1>Kültür-Sanat enleri</h1>
+    <hr>
+    <fieldset id="group26">
+        <h2>Yılın en iyi albümü</h2>
+        <input type="radio" name="q26" id="26.1" class="input-hidden" value="adamlar26" />
+        <label for="26.1">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ALBÜM/ADAMLAR - HKMO II/1.jpeg') }}" />
+            <div>Adamlar - HKMO II <br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+
+        <input type="radio" name="q26" id="26.3" class="input-hidden" value="manga26" />
+        <label for="26.3">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ALBÜM/ANTROPOSEN (MANGA)/1.png') }}" />
+            <div>Manga - Antroposen <br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+
+        <input type="radio" name="q26" id="26.4" class="input-hidden" value="cankaza26" />
+        <label for="26.4">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ALBÜM/Can Kazaz- ve Toprak/1.jpg') }}" />
+            <div>Can Kazaz <br>ve Toprak</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q26" id="26.5" class="input-hidden" value="mavi26" />
+        <label for="26.5">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ALBÜM/MAVİ- VERİSTAS/1.jpeg') }}" />
+            <div>Mavi - Veristas <br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+
+        <input type="radio" name="q26" id="26.6" class="input-hidden" value="novanorda26" />
+        <label for="26.6">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ALBÜM/Nova Norda - Paralel Evrende Dünya Tarihi/1.jpeg') }}" />
+            <div>Nova Norda - Paralel <br> Evrende Dünya Tarihi</div>
+        </label>
+
+        <input type="radio" name="q26" id="26.7" class="input-hidden" value="skapova26" />
+        <label for="26.7">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ALBÜM/Skapova - Ben Senden Vazgeçtim/1.jpg') }}" />
+            <div>Skapova <br> Ben Senden Vazgeçtim</div>
+        </label>
+        <br>
+    </fieldset>
+    <hr>
+    <br><br>
+
+    <fieldset id="group27">
+        <h2>Yılın çıkış yapan oyuncusu</h2>
+        <input type="radio" name="q27" id="27.1" class="input-hidden" value="busemeral27" />
+        <label for="27.1">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ÇIKIŞ YAPAN OYUNCU/Buse Meral/1.jpg') }}" />
+            <div>Buse Meral</div>
+        </label>
+
+        <input type="radio" name="q27" id="27.2" class="input-hidden" value="caglasimsek27" />
+        <label for="27.2">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ÇIKIŞ YAPAN OYUNCU/Çağla Şimşek/1.png') }}" />
+            <div>Çağla Şimşek</div>
+        </label>
+
+        <input type="radio" name="q27" id="27.3" class="input-hidden" value="erdemkaynarca27" />
+        <label for="27.3">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ÇIKIŞ YAPAN OYUNCU/Erdem Kaynarca/1.jpg') }}" />
+            <div>Erdem Kaynarca</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q27" id="27.4" class="input-hidden" value="mertdemir27" />
+        <label for="27.4">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ÇIKIŞ YAPAN OYUNCU/Mert Ramazan Demir/1.jpg') }}" />
+            <div>Mert Ramazan Demir</div>
+        </label>
+
+        <input type="radio" name="q27" id="27.5" class="input-hidden" value="serrapirinc27" />
+        <label for="27.5">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ÇIKIŞ YAPAN OYUNCU/Serra Pirinç/1.jpeg') }}" />
+            <div>Serra Pirinç</div>
+        </label>
+
+        <input type="radio" name="q27" id="27.6" class="input-hidden" value="tarotekin27" />
+        <label for="27.6">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ÇIKIŞ YAPAN OYUNCU/Taro Emir Tekin/1.png') }}" />
+            <div>Taro Emir Tekin</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q27" id="27.7" class="input-hidden" value="onur27" />
+        <label for="27.7">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ÇIKIŞ YAPAN OYUNCU/Onur Seyit Yaran/1.jpg') }}" />
+            <div>Onur Seyit Yaran</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+
+    <fieldset id="group28">
+        <h2>Yılın çıkış yapan şarkıcısı</h2>
+        <input type="radio" name="q28" id="28.1" class="input-hidden" value="berkayaltunyay28" />
+        <label for="28.1">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ÇIKIŞ YAPAN ŞARKICI/berkay altunyay/1.jpg') }}" />
+            <div>Berkay Altunyay</div>
+        </label>
+
+        <input type="radio" name="q28" id="28.2" class="input-hidden" value="cakal28" />
+        <label for="28.2">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ÇIKIŞ YAPAN ŞARKICI/Çakal/1.png') }}" />
+            <div>Çakal</div>
+        </label>
+
+        <input type="radio" name="q28" id="28.3" class="input-hidden" value="handemehan28" />
+        <label for="28.3">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ÇIKIŞ YAPAN ŞARKICI/hande mehan/1.jpeg') }}" />
+            <div>Hande Mehan</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q28" id="28.4" class="input-hidden" value="sefo28" />
+        <label for="28.4">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ÇIKIŞ YAPAN ŞARKICI/SEFO/1.jpg') }}" />
+            <div>SEFO</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+
+    <fieldset id="group29">
+        <h2>Yılın dijital dizisi</h2>
+        <input type="radio" name="q29" id="29.1" class="input-hidden" value="bengri29" />
+        <label for="29.1">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/DİJİTAL DİZİ/Ben Gri/1.jpg') }}" />
+            <div>Ben Gri <br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+
+        <input type="radio" name="q29" id="29.2" class="input-hidden" value="dunyailebenim29" />
+        <label for="29.2">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/DİJİTAL DİZİ/Dünya İle Benim Aramda/1.jpg') }}" />
+            <div>Dünya ile Benim <br> Aramda</div>
+        </label>
+
+        <input type="radio" name="q29" id="29.3" class="input-hidden" value="hayallervehayatlar29" />
+        <label for="29.3">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/DİJİTAL DİZİ/Hayaller ve Hayatlar/1.jpg') }}" />
+            <div>Hayaller ve Hayatlar <br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+        <br>
+
+        <input type="radio" name="q29" id="29.4" class="input-hidden" value="kacis29" />
+        <label for="29.4">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/DİJİTAL DİZİ/Kaçış/1.jpg') }}" />
+            <div>Kaçış</div>
+        </label>
+
+        <input type="radio" name="q29" id="29.5" class="input-hidden" value="kusucusu29" />
+        <label for="29.5">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/DİJİTAL DİZİ/Kuş Uçuşu/1.webp') }}" />
+            <div>Kuş Uçuşu</div>
+        </label>
+
+        <input type="radio" name="q29" id="29.6" class="input-hidden" value="sadece29" />
+        <label for="29.6">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/DİJİTAL DİZİ/Sadece Arkadaşız/1.webp') }}" />
+            <div>Sadece Arkadaşız</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q29" id="29.7" class="input-hidden" value="sahmaran29" />
+        <label for="29.7">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/DİJİTAL DİZİ/Şahmaran/1.jpg') }}" />
+            <div>Şahmaran</div>
+        </label>
+
+        <input type="radio" name="q29" id="29.8" class="input-hidden" value="sıcakkafa29" />
+        <label for="29.8">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/DİJİTAL DİZİ/Sıcak Kafa/1.jpeg') }}" />
+            <div>Sıcak Kafa</div>
+        </label>
+
+        <input type="radio" name="q29" id="29.9" class="input-hidden" value="uysallar29" />
+        <label for="29.9">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/DİJİTAL DİZİ/Uysallar/1.jpg') }}" />
+            <div>Uysallar</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q29" id="29.10" class="input-hidden" value="yakamoz29" />
+        <label for="29.10">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/DİJİTAL DİZİ/Yakamoz S-245/1.jpg') }}" />
+            <div>Yakamoz S-245</div>
+        </label>
+
+        <input type="radio" name="q29" id="29.11" class="input-hidden" value="zeytin29" />
+        <label for="29.11">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/DİJİTAL DİZİ/Zeytin Ağacı/1.jpg') }}" />
+            <div>Zeytin Ağacı</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+
+
+    <fieldset id="group30">
+        <!-- Dijital Platform -->
+        <h2>Yılın dijital platformu</h2>
+        <input type="radio" name="q30" id="30.1" class="input-hidden" value="disney30" />
+        <label for="30.1">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/DİJİTAL PLATFORM/Disney Plus/1.png') }}" />
+            <div>Disney Plus</div>
+        </label>
+
+        <input type="radio" name="q30" id="30.2" class="input-hidden" value="exxen30" />
+        <label for="30.2">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/DİJİTAL PLATFORM/Exxen/1.png') }}" style="background-color: white;"/>
+            <div>Exxen</div>
+        </label>
+
+        <input type="radio" name="q30" id="30.3" class="input-hidden" value="mubi30" />
+        <label for="30.3">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/DİJİTAL PLATFORM/MUBI/1.png') }}" />
+            <div>MUBI</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q30" id="30.4" class="input-hidden" value="netflix30" />
+        <label for="30.4">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/DİJİTAL PLATFORM/Netflix/1.png') }}" style="background-color: white;"/>
+            <div>Netflix</div>
+        </label>
+
+        <input type="radio" name="q30" id="30.5" class="input-hidden" value="puhu30" />
+        <label for="30.5">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/DİJİTAL PLATFORM/Puhu TV/1.png') }}" style="background-color: white;"/>
+            <div>Puhu TV</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+
+
+    <fieldset id="group31">
+        <!-- Erkek Oyuncu -->
+        <h2>Yılın erkek oyuncusu</h2>
+        <input type="radio" name="q31" id="31.1" class="input-hidden" value="ahmet haktan31" />
+        <label for="31.1">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/Ahmet Haktan Zavlak/1.jpg') }}" />
+            <div>Ahmet Haktan Zavlak</div>
+        </label>
+
+        <input type="radio" name="q31" id="31.2" class="input-hidden" value="Ahmet Kural31" />
+        <label for="31.2">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/Ahmet Kural/1.jpeg') }}" />
+            <div>Ahmet Kural</div>
+        </label>
+
+        <input type="radio" name="q31" id="31.3" class="input-hidden" value="Alp Navruz31" />
+        <label for="31.3">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/Alp Navruz/1.PNG') }}" />
+            <div>Alp Navruz</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q31" id="31.4" class="input-hidden" value="Baris31" />
+        <label for="31.4">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/Barış Kılıç/1.jpeg') }}" />
+            <div>Barış Kılıç</div>
+        </label>
+
+        <input type="radio" name="q31" id="31.5" class="input-hidden" value="Berkayates31" />
+        <label for="31.5">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/Berkay Ateş/1.png') }}" />
+            <div>Berkay Ateş</div>
+        </label>
+
+        <input type="radio" name="q31" id="31.6" class="input-hidden" value="bilalyk31" />
+        <label for="31.6">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/BİLAL YİĞİT KOÇAK/1.jpg') }}" />
+            <div>Bilal Yiğit Koçak</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q31" id="31.7" class="input-hidden" value="birkansokullu31" />
+        <label for="31.7">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/Birkan Sokullu/1.png') }}" />
+            <div>Birkan Sokullu</div>
+        </label>
+
+        <input type="radio" name="q31" id="31.8" class="input-hidden" value="boran31" />
+        <label for="31.8">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/Boran Kuzum/1.jpg') }}" />
+            <div>Boran Kuzum</div>
+        </label>
+
+        <input type="radio" name="q31" id="31.9" class="input-hidden" value="bugra31" />
+        <label for="31.9">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/Buğra Gülsoy/1.jpg') }}" />
+            <div>Buğra Gülsoy</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q31" id="31.10" class="input-hidden" value="canbartu31" />
+        <label for="31.10">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/Can Bartu Aslan/1.png') }}" />
+            <div>Can Bartu Aslan</div>
+        </label>
+
+        <input type="radio" name="q31" id="31.11" class="input-hidden" value="caner31" />
+        <label for="31.11">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/Caner Cindoruk/1.jpg') }}" />
+            <div>Caner Cindoruk</div>
+        </label>
+
+        <input type="radio" name="q31" id="31.12" class="input-hidden" value="enginak31" />
+        <label for="31.12">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/Engin Akyürek/1.jpg') }}" />
+            <div>Engin Akyürek</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q31" id="31.13" class="input-hidden" value="enginoz31" />
+        <label for="31.13">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/Engin Öztürk/1.jpeg') }}" />
+            <div>Engin Öztürk <br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+
+        <input type="radio" name="q31" id="31.14" class="input-hidden" value="erkankolcak31" />
+        <label for="31.14">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/Erkan Kolçak Köstendil/1.jpg') }}" />
+            <div>Erkan Kolçak <br> Köstendil</div>
+        </label>
+
+        <input type="radio" name="q31" id="31.15" class="input-hidden" value="ertan31" />
+        <label for="31.15">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/Ertan Saban/1.jpeg') }}" />
+            <div>Ertan Saban <br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+        <br>
+
+        <input type="radio" name="q31" id="31.16" class="input-hidden" value="furkan31" />
+        <label for="31.16">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/Furkan Andıç/1.jpg') }}" />
+            <div>Furkan Andıç</div>
+        </label>
+
+        <input type="radio" name="q31" id="31.17" class="input-hidden" value="hakan31" />
+        <label for="31.17">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/Hakan Kurtaş/1.jpeg') }}" />
+            <div>Hakan Kurtaş</div>
+        </label>
+
+        <input type="radio" name="q31" id="31.18" class="input-hidden" value="ibrahim31" />
+        <label for="31.18">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/İbrahim Çelikkol/1.jpg') }}" />
+            <div>İbrahim Çelikkol</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q31" id="31.19" class="input-hidden" value="ibrahimisma31" />
+        <label for="31.19">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/İsmail Hacıoğlu/1.jpg') }}" />
+            <div>İsmail Hacıoğlu</div>
+        </label>
+
+
+        <input type="radio" name="q31" id="31.20" class="input-hidden" value="kaanurga31" />
+        <label for="31.20">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/Kaan Urgancıoğlu/1.jpg') }}" />
+            <div>Kaan Urgancıoğlu</div>
+        </label>
+
+        <input type="radio" name="q31" id="31.21" class="input-hidden" value="kıvoç31" />
+        <label for="31.21">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/Kıvanç Tatlıtuğ/1.jpg') }}" />
+            <div>Kıvanç Tatlıtuğ</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q31" id="31.22" class="input-hidden" value="levenu31" />
+        <label for="31.22">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/Levent Ülgen (Baba)/1.jpg') }}" />
+            <div>Levent Ülgen</div>
+        </label>
+
+        <input type="radio" name="q31" id="31.23" class="input-hidden" value="Mehmetsung31" />
+        <label for="31.23">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/Mehmet Günsur/1.jpg') }}" />
+            <div>Mehmet Günsur</div>
+        </label>
+
+        <input type="radio" name="q31" id="31.24" class="input-hidden" value="MehmetKurtulus31" />
+        <label for="31.9">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/Mehmet Kurtuluş/1.jpeg') }}" />
+            <div>Mehmet Kurtuluş</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q31" id="31.25" class="input-hidden" value="MetinAkdülger31" />
+        <label for="31.25">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/Metin Akdülger/1.jpeg') }}" />
+            <div>Metin Akdülger</div>
+        </label>
+
+        <input type="radio" name="q31" id="31.26" class="input-hidden" value="Oktaykay31" />
+        <label for="31.26">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/Oktay Kaynarca/1.jpg') }}" />
+            <div>Oktay Kaynarca</div>
+        </label>
+
+        <input type="radio" name="q31" id="31.27" class="input-hidden" value="onurtuna31" />
+        <label for="31.27">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/Onur Tuna/1.png') }}" />
+            <div>Onur Tuna</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q31" id="31.28" class="input-hidden" value="rizak31" />
+        <label for="31.28">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/Rıza Kocaoğlu/1.jpg') }}" />
+            <div>Rıza Kocaoğlu</div>
+        </label>
+
+        <input type="radio" name="q31" id="31.29" class="input-hidden" value="selo31" />
+        <label for="31.29">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/Selahattin Paşalı/1.png') }}" />
+            <div>Selahattin Paşalı</div>
+        </label>
+
+        <input type="radio" name="q31" id="31.30" class="input-hidden" value="tim31" />
+        <label for="31.30">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/Tim Seyfi/1.jpg') }}" />
+            <div>Tim Seyfi</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q31" id="31.31" class="input-hidden" value="timu31" />
+        <label for="31.31">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/Timuçin Esen/1.jpg') }}" />
+            <div>Timuçin Esen</div>
+        </label>
+
+        <input type="radio" name="q31" id="31.32" class="input-hidden" value="tolgas31" />
+        <label for="31.32">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/Tolga Sarıtaş/1.jpg') }}" />
+            <div>Tolga Sarıtaş</div>
+        </label>
+
+        <input type="radio" name="q31" id="31.33" class="input-hidden" value="toprakk31" />
+        <label for="31.33">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/Toprakcan Adıgüzel/1.JPG') }}" />
+            <div>Toprakcan Adıgüzel</div>
+        </label>
+        <br>
+
+
+        <input type="radio" name="q31" id="31.34" class="input-hidden" value="ulast31" />
+        <label for="31.34">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/Ulaş Tuna Astepe/1.png') }}" />
+            <div>Ulaş Tuna Astepe</div>
+        </label>
+
+        <input type="radio" name="q31" id="31.35" class="input-hidden" value="urazk31" />
+        <label for="31.35">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/URAZ KAYGILAROĞLU/1.webp') }}" />
+            <div>Uraz Kaygılaroğlu</div>
+        </label>
+
+        <input type="radio" name="q31" id="31.36" class="input-hidden" value="erdal31" />
+        <label for="31.36">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/Erdal Beşikçioğlu/1.png') }}" />
+            <div>Erdal Beşikçioğlu</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q31" id="31.37" class="input-hidden" value="nejat31" />
+        <label for="31.37">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/Nejat İşler/1.webp') }}" />
+            <div>Nejat İşler</div>
+        </label>
+
+        <input type="radio" name="q31" id="31.38" class="input-hidden" value="alperen31" />
+        <label for="31.38">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/ERKEK OYUNCU/Alperen Duymaz/1.jpg') }}" />
+            <div>Nejat İşler</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+    <fieldset id="group32">
+        <!-- Film -->
+        <h2>Yılın filmi</h2>
+        <input type="radio" name="q32" id="32.1" class="input-hidden" value="4932" />
+        <label for="32.1">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/FİLM/49/1.png') }}" />
+            <div>49 <br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+
+        <input type="radio" name="q32" id="32.2" class="input-hidden" value="allahy32" />
+        <label for="32.2">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/FİLM/Allah Yazdıysa Bozsun/1.jpeg') }}" />
+            <div>Allah Yazdıysa <br> Bozsun</div>
+        </label>
+
+        <input type="radio" name="q32" id="32.3" class="input-hidden" value="Asiklar32" />
+        <label for="32.3">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/FİLM/Aşıklar Bayramı/1.jpg') }}" />
+            <div>Aşıklar Bayramı <br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+        <br>
+
+
+        <input type="radio" name="q32" id="32.4" class="input-hidden" value="babamink32" />
+        <label for="32.4">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/FİLM/Babamın Kemanı/1.jpg') }}" />
+            <div>Babamın Kemanı <br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+
+
+        <input type="radio" name="q32" id="32.5" class="input-hidden" value="bandirma32" />
+        <label for="32.5">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/FİLM/Bandırma Füze Kulübü/1.webp') }}" />
+            <div>Bandırma Füze <br> Kulubü</div>
+        </label>
+
+        <input type="radio" name="q32" id="32.6" class="input-hidden" value="kal32" />
+        <label for="32.6">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/FİLM/Kal/1.webp') }}" />
+            <div>Kal <br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+        <br>
+
+        <input type="radio" name="q32" id="32.7" class="input-hidden" value="kesişme32" />
+        <label for="32.7">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/FİLM/Kesişme_ İyi Ki Varsın Eren/1.jpg') }}" />
+            <div>Kesişme İyiki <br> Varsın Eren</div>
+        </label>
+
+        <input type="radio" name="q32" id="32.8" class="input-hidden" value="kurakg32" />
+        <label for="32.8">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/FİLM/Kurak Günler/1.jpg') }}" />
+            <div>Kurak Günler <br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+
+        <input type="radio" name="q32" id="32.9" class="input-hidden" value="muzjdemii32" />
+        <label for="32.9">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/FİLM/Müjdemi İsterim/1.jpg') }}" />
+            <div>Müzjdemi İSterim <br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+        <br>
+
+        <input type="radio" name="q32" id="32.10" class="input-hidden" value="ozelders32" />
+        <label for="32.10">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/FİLM/Özel Ders/1.webp') }}" />
+            <div>Özel Ders</div>
+        </label>
+
+        <input type="radio" name="q32" id="32.11" class="input-hidden" value="senyasama32" />
+        <label for="32.11">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/FİLM/Sen Yaşamaya Bak/1.jpg') }}" />
+            <div>Sen Yaşamaya Bak</div>
+        </label>
+
+        <input type="radio" name="q32" id="32.12" class="input-hidden" value="TAMİRHANE32" />
+        <label for="32.12">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/FİLM/TAMİRHANE/1.jpeg') }}" />
+            <div>Tamirhane</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q32" id="32.13" class="input-hidden" value="ufo32" />
+        <label for="32.13">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/FİLM/UFO/1.JPG') }}" />
+            <div>UFO</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+    <fieldset id="group33">
+        <!--  içerik üreticisi -->
+        <h2>Yılın içerik üreticisi</h2>
+        <input type="radio" name="q33" id="33.1" class="input-hidden" value="berkkek33" />
+        <label for="33.1">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/İÇERİK ÜRETİCİSİ/Berk Keklik/1.PNG') }}" />
+            <div>Berk Keklik</div>
+        </label>
+
+        <input type="radio" name="q33" id="33.2" class="input-hidden" value="Burakalt33" />
+        <label for="33.2">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/İÇERİK ÜRETİCİSİ/Burak Altındağ/1.jpeg') }}" />
+            <div>Burak Altındağ</div>
+        </label>
+
+        <input type="radio" name="q33" id="33.3" class="input-hidden" value="filmg33" />
+        <label for="33.3">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/İÇERİK ÜRETİCİSİ/Filme Gitmeden Önce - Cem Başak/1.JPG') }}" />
+            <div>Cem Başak</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q33" id="33.4" class="input-hidden" value="ogulcana33" />
+        <label for="33.4">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/İÇERİK ÜRETİCİSİ/Oğulcan Aşıkoğlu/1.JPG') }}" />
+            <div>Oğulcan Aşıkoğlu</div>
+        </label>
+
+        <input type="radio" name="q33" id="33.5" class="input-hidden" value="oguzhanug33" />
+        <label for="33.5">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/İÇERİK ÜRETİCİSİ/Oğuzhan Uğur/1.PNG') }}" />
+            <div>Oğuzhan Uğur</div>
+        </label>
+
+        <input type="radio" name="q33" id="33.6" class="input-hidden" value="cerenmor33" />
+        <label for="33.6">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/İÇERİK ÜRETİCİSİ/Ceren Morova/1.png') }}" />
+            <div>Ceren Morova</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q33" id="33.7" class="input-hidden" value="mosyot33" />
+        <label for="33.7">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/İÇERİK ÜRETİCİSİ/Mösyö Taha/1.png') }}" />
+            <div>Mösyo Taha</div>
+        </label>
+
+        <input type="radio" name="q33" id="33.8" class="input-hidden" value="noluyo33" />
+        <label for="33.8">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/İÇERİK ÜRETİCİSİ/Noluyo Ya/1.png') }}" />
+            <div>Noluyo Ya</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+    <fieldset id="group34">
+        <!-- youtuber&influencer -->
+        <h2>Yılın youtuber&influencerı</h2>
+        <input type="radio" name="q34" id="34.1" class="input-hidden" value="ahmetaksoz34" />
+        <label for="34.1">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/INFLUENCER_YOUTUBER/Ahmet Aksöz/1.jpeg') }}" />
+            <div>Ahmet Aksöz</div>
+        </label>
+
+        <input type="radio" name="q34" id="34.2" class="input-hidden" value="ala34" />
+        <label for="34.2">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/INFLUENCER_YOUTUBER/Ala Tokel/1.jpeg') }}" />
+            <div>Ala Tokel</div>
+        </label>
+
+        <input type="radio" name="q34" id="34.3" class="input-hidden" value="ali34" />
+        <label for="34.3">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/INFLUENCER_YOUTUBER/Ali Biçim/1.jpeg') }}" />
+            <div>Ali Biçim</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q34" id="34.4" class="input-hidden" value="begum34" />
+        <label for="34.4">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/INFLUENCER_YOUTUBER/Begüm Şanlı/1.jpeg') }}" />
+            <div>Begüm Şanlı</div>
+        </label>
+
+        <input type="radio" name="q34" id="34.5" class="input-hidden" value="bilge34" />
+        <label for="34.5">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/INFLUENCER_YOUTUBER/Bilge Su Işık/1.jpg') }}" />
+            <div>Bilge Su Işık</div>
+        </label>
+
+        <input type="radio" name="q34" id="34.6" class="input-hidden" value="burcu34" />
+        <label for="34.6">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/INFLUENCER_YOUTUBER/Burcu Çakmak/1.jpeg') }}" />
+            <div>Burcu Çakmak</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q34" id="34.7" class="input-hidden" value="cemrehan34" />
+        <label for="34.7">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/INFLUENCER_YOUTUBER/Cemrehan Karakaş/1.jpg') }}" />
+            <div>Cemrehan Karakaş</div>
+        </label>
+
+        <input type="radio" name="q34" id="34.8" class="input-hidden" value="ceren34" />
+        <label for="34.8">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/INFLUENCER_YOUTUBER/Ceren Morova/1.jpg') }}" />
+            <div>Ceren Morova</div>
+        </label>
+
+        <input type="radio" name="q34" id="34.9" class="input-hidden" value="cihan34" />
+        <label for="34.9">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/INFLUENCER_YOUTUBER/Cihan Albayrak/1.jpeg') }}" />
+            <div>Cihan Albayrak</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q34" id="34.10" class="input-hidden" value="damlaaltun34" />
+        <label for="34.10">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/INFLUENCER_YOUTUBER/Damla Altun/1.jpg') }}" />
+            <div>Damla Altun</div>
+        </label>
+
+        <input type="radio" name="q34" id="34.11" class="input-hidden" value="damlakalay34" />
+        <label for="34.11">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/INFLUENCER_YOUTUBER/Damla Kalaycık/1.jpeg') }}" />
+            <div>Damla Kalaycık</div>
+        </label>
+
+        <input type="radio" name="q34" id="34.12" class="input-hidden" value="diana34" />
+        <label for="34.12">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/INFLUENCER_YOUTUBER/Diana Askarova/1.jpeg') }}" />
+            <div>Diana Askarova</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q34" id="34.13" class="input-hidden" value="eylul34" />
+        <label for="34.13">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/INFLUENCER_YOUTUBER/Eylül Bahar/1.jpeg') }}" />
+            <div>Eylül Bahar</div>
+        </label>
+
+        <input type="radio" name="q34" id="34.14" class="input-hidden" value="ezgikose34" />
+        <label for="34.14">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/INFLUENCER_YOUTUBER/Ezgi Köse/1.jpg') }}" />
+            <div>Ezgi Köse</div>
+        </label>
+
+        <input type="radio" name="q34" id="34.15" class="input-hidden" value="ezgiselek34" />
+        <label for="34.15">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/INFLUENCER_YOUTUBER/Ezgi Selek/1.jpeg') }}" />
+            <div>Ezgi Selek</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q34" id="34.16" class="input-hidden" value="fırat34" />
+        <label for="34.16">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/INFLUENCER_YOUTUBER/Fırat Sobutay/1.jpg') }}" />
+            <div>Fırat Sobutay</div>
+        </label>
+
+        <input type="radio" name="q34" id="34.17" class="input-hidden" value="fulya34" />
+        <label for="34.17">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/INFLUENCER_YOUTUBER/Fulya Zenginer/1.jpeg') }}" />
+            <div>Fulya Zenginer</div>
+        </label>
+
+        <input type="radio" name="q34" id="34.18" class="input-hidden" value="hicran34" />
+        <label for="34.18">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/INFLUENCER_YOUTUBER/Hicran Pangal/1.jpg') }}" />
+            <div>Hicran Pangal</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q34" id="34.19" class="input-hidden" value="mehtap34" />
+        <label for="34.19">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/INFLUENCER_YOUTUBER/Mehtap Algül/1.png') }}" />
+            <div>Mehtap Algül</div>
+        </label>
+
+        <input type="radio" name="q34" id="34.20" class="input-hidden" value="mct34" />
+        <label for="34.20">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/INFLUENCER_YOUTUBER/Mesut Can Tomay/1.jpeg') }}" />
+            <div>Mesut Can Tomay</div>
+        </label>
+
+        <input type="radio" name="q34" id="34.21" class="input-hidden" value="mosyo34" />
+        <label for="34.21">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/INFLUENCER_YOUTUBER/Mösyo Taha/1.jpeg') }}" />
+            <div>Mösyö Taha</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q34" id="34.22" class="input-hidden" value="noluyoya34" />
+        <label for="34.22">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/INFLUENCER_YOUTUBER/Noluyo Ya/1.jpg') }}" />
+            <div>Noluyo Ya</div>
+        </label>
+
+        <input type="radio" name="q34" id="34.23" class="input-hidden" value="onur34" />
+        <label for="34.23">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/INFLUENCER_YOUTUBER/Onur Seyit Yaran/1.jpg') }}" />
+            <div>Onur Seyit Yaran</div>
+        </label>
+
+        <input type="radio" name="q34" id="34.24" class="input-hidden" value="seyda34" />
+        <label for="34.24">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/INFLUENCER_YOUTUBER/ŞEYDA ERDOĞAN/1.jpg') }}" />
+            <div>Şeyda Erdoğan</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q34" id="34.25" class="input-hidden" value="sezin34" />
+        <label for="34.25">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/INFLUENCER_YOUTUBER/Sezin Karameşe/1.jpeg') }}" />
+            <div>Sezin Karameşe</div>
+        </label>
+
+        <input type="radio" name="q34" id="34.26" class="input-hidden" value="sibil34" />
+        <label for="34.26">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/INFLUENCER_YOUTUBER/Sibil Çetinkaya/1.jpg') }}" />
+            <div>Sibil Çetinkaya</div>
+        </label>
+
+        <input type="radio" name="q34" id="34.27" class="input-hidden" value="siynem34" />
+        <label for="34.27">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/INFLUENCER_YOUTUBER/Siynem Gültekin/1.jpg') }}" />
+            <div>Siynem Gültekin</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q34" id="34.28" class="input-hidden" value="sude34" />
+        <label for="34.28">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/INFLUENCER_YOUTUBER/Sude Burcu/1.jpeg') }}" />
+            <div>Sude Burcu</div>
+        </label>
+
+        <input type="radio" name="q34" id="34.29" class="input-hidden" value="ugur34" />
+        <label for="34.29">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/INFLUENCER_YOUTUBER/Uğur Şengül/1.jpg') }}" />
+            <div>Uğur Şengül</div>
+        </label>
+
+        <input type="radio" name="q34" id="34.30" class="input-hidden" value="yasemin34" />
+        <label for="34.30">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/INFLUENCER_YOUTUBER/Yasemin Yuruk/1.jpeg') }}" />
+            <div>Yasemin Yuruk</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q34" id="34.31" class="input-hidden" value="zeynep34" />
+        <label for="34.31">
+            <img
+                src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/INFLUENCER_YOUTUBER/Zeynep Çetin/1.jpeg') }}" />
+            <div>Zeynep Çetin</div>
+        </label>
+
+    </fieldset>
+    <hr>
+    <br><br>
+    <fieldset id="group35">
+        <!-- kadın Oyuncu -->
+        <h2>Yılın kadın oyuncusu</h2>
+        <input type="radio" name="q35" id="35.1" class="input-hidden" value="aslienver35" />
+        <label for="35.1">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Aslı Enver/1.jpeg') }}" />
+            <div>Aslı Enver</div>
+        </label>
+
+        <input type="radio" name="q35" id="35.2" class="input-hidden" value="aslıhan35" />
+        <label for="35.2">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Aslıhan Gürbüz/1.jpg') }}" />
+            <div>Aslıhan Gürbüz</div>
+        </label>
+
+        <input type="radio" name="q35" id="35.3" class="input-hidden" value="bensu35" />
+        <label for="35.3">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Bensu Soral/1.png') }}" />
+            <div>Bensu Soral</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q35" id="35.4" class="input-hidden" value="bilge35" />
+        <label for="35.4">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/bilge şen/1.jpg') }}" />
+            <div>Bilge Şen</div>
+        </label>
+
+        <input type="radio" name="q35" id="35.5" class="input-hidden" value="binnur35" />
+        <label for="35.5">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Binnur Kaya/1.jpg') }}" />
+            <div>Binnur Kaya</div>
+        </label>
+
+        <input type="radio" name="q35" id="35.6" class="input-hidden" value="birce35" />
+        <label for="35.6">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Birce Akalay/1.png') }}" />
+            <div>Birce Akalay</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q35" id="35.7" class="input-hidden" value="büşra35" />
+        <label for="35.7">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Büşra Pekin/1.jpeg') }}" />
+            <div>Büşra Pekin</div>
+        </label>
+
+        <input type="radio" name="q35" id="35.8" class="input-hidden" value="demetevgar35" />
+        <label for="35.8">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Demet Evgar/1.png') }}" />
+            <div>Demet Evgar</div>
+        </label>
+
+        <input type="radio" name="q35" id="35.9" class="input-hidden" value="demetöz35" />
+        <label for="35.9">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/demet özdemir/1.jpg') }}" />
+            <div>Demet Özdemir</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q35" id="35.10" class="input-hidden" value="dilara35" />
+        <label for="35.10">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Dilara Aksüyek/1.jpeg') }}" />
+            <div>Dilara Aksüyek</div>
+        </label>
+
+        <input type="radio" name="q35" id="35.11" class="input-hidden" value="dolunay35" />
+        <label for="35.11">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Dolunay Soysert/1.jpg') }}" />
+            <div>Dolunay Soysert</div>
+        </label>
+
+        <input type="radio" name="q35" id="35.12" class="input-hidden" value="ebru35" />
+        <label for="35.12">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Ebru Özkan/1.jpeg') }}" />
+            <div>Ebru Özkan</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q35" id="35.13" class="input-hidden" value="ecemerkek35" />
+        <label for="35.13">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Ecem Erkek/1.jpeg') }}" />
+            <div>Ecem Erkek</div>
+        </label>
+
+        <input type="radio" name="q35" id="35.14" class="input-hidden" value="ecemuzun35" />
+        <label for="35.14">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Ecem Uzun/1.jpg') }}" />
+            <div>Ecem Uzun</div>
+        </label>
+
+        <input type="radio" name="q35" id="35.15" class="input-hidden" value="eda35" />
+        <label for="35.15">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Eda Ece/1.jpg') }}" />
+            <div>Eda Ece</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q35" id="35.16" class="input-hidden" value="ezgi35" />
+        <label for="35.16">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Ezgi Mola/1.jpeg') }}" />
+            <div>Ezgi Mola</div>
+        </label>
+
+        <input type="radio" name="q35" id="35.17" class="input-hidden" value="fahriye35" />
+        <label for="35.17">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Fahriye Evcen/1.jpg') }}" />
+            <div>Fahriye Evcen</div>
+        </label>
+
+        <input type="radio" name="q35" id="35.18" class="input-hidden" value="funda35" />
+        <label for="35.18">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Funda Eryiğit/1.jpeg') }}" />
+            <div>Funda Eryiğit</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q35" id="35.19" class="input-hidden" value="gokce35" />
+        <label for="35.19">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Gökçe Eyüboğlu/1.webp') }}" />
+            <div>Gökçe Eyüboğlu</div>
+        </label>
+
+        <input type="radio" name="q35" id="35.20" class="input-hidden" value="hatice35" />
+        <label for="35.20">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Hatice Şendil/1.png') }}" />
+            <div>Hatice Şendil</div>
+        </label>
+
+        <input type="radio" name="q35" id="35.21" class="input-hidden" value="hayal35" />
+        <label for="35.21">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Hayal Köseoğlu/1.jpeg') }}" />
+            <div>Hayal Köseoğlu</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q35" id="35.22" class="input-hidden" value="hazal35" />
+        <label for="35.22">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Hazal Kaya/1.jpg') }}" />
+            <div>Hazal Kaya</div>
+        </label>
+
+        <input type="radio" name="q35" id="35.23" class="input-hidden" value="hazar35" />
+        <label for="35.23">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Hazar Ergüçlü/1.jpeg') }}" />
+            <div>Hazar Ergüçlü</div>
+        </label>
+
+        <input type="radio" name="q35" id="35.24" class="input-hidden" value="leyla35" />
+        <label for="35.24">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Leyla Tanlar/1.jpg') }}" />
+            <div>Leyla Tanlar</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q35" id="35.25" class="input-hidden" value="melis35" />
+        <label for="35.25">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Melis Minkari/1.jpg') }}" />
+            <div>Melis Minkari</div>
+        </label>
+
+        <input type="radio" name="q35" id="35.26" class="input-hidden" value="meric35" />
+        <label for="35.26">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Meriç Aral/1.png') }}" />
+            <div>Meriç Aral</div>
+        </label>
+
+        <input type="radio" name="q35" id="35.27" class="input-hidden" value="merve35" />
+        <label for="35.27">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Merve Dizdar/1.jpg') }}" />
+            <div>Merve Dizdar</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q35" id="35.28" class="input-hidden" value="miray35" />
+        <label for="35.28">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Miray Daner/1.jpeg') }}" />
+            <div>Miray Daner</div>
+        </label>
+
+        <input type="radio" name="q35" id="35.29" class="input-hidden" value="nergis35" />
+        <label for="35.29">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Nergis Öztürk/1.webp') }}" />
+            <div>Nergis Öztürk</div>
+        </label>
+
+        <input type="radio" name="q35" id="35.30" class="input-hidden" value="neslihan35" />
+        <label for="35.30">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Neslihan Atagül/1.png') }}" />
+            <div>Neslihan Atagül</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q35" id="35.31" class="input-hidden" value="oyku35" />
+        <label for="35.31">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Öykü Karayel/1.png') }}" />
+            <div>Öykü Karayel</div>
+        </label>
+
+        <input type="radio" name="q35" id="35.32" class="input-hidden" value="pinar35" />
+        <label for="35.32">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Pınar Deniz/1.jpg') }}" />
+            <div>Pınar Deniz</div>
+        </label>
+
+        <input type="radio" name="q35" id="35.33" class="input-hidden" value="seray35" />
+        <label for="35.33">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/SERAY KAYA/1.jpg') }}" />
+            <div>Seray Kaya</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q35" id="35.34" class="input-hidden" value="serenay35" />
+        <label for="35.34">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Serenay Sarıkaya/1.png') }}" />
+            <div>Serenay Sarıkaya</div>
+        </label>
+
+        <input type="radio" name="q35" id="35.35" class="input-hidden" value="serra35" />
+        <label for="35.35">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Serra Pirinç/1.jpeg') }}" />
+            <div>Serra Pirinç</div>
+        </label>
+
+        <input type="radio" name="q35" id="35.36" class="input-hidden" value="tuba35" />
+        <label for="35.36">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Tuba Büyüküstün/1.png') }}" />
+            <div>Tuba Büyüküstün</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q35" id="35.37" class="input-hidden" value="vahide35" />
+        <label for="35.37">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Vahide Perçin/1.webp') }}" />
+            <div>Vahide Perçin</div>
+        </label>
+
+        <input type="radio" name="q35" id="35.38" class="input-hidden" value="zerrin35" />
+        <label for="35.38">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Zerrin Tekindor/1.png') }}" />
+            <div>Zerrin Tekindor</div>
+        </label>
+
+        <input type="radio" name="q35" id="35.39" class="input-hidden" value="buce35" />
+        <label for="35.39">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KADIN OYUNCU/Buçe Buse Kahraman/1.jpg') }}" />
+            <div>Buçe Buse Kahraman</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+    <fieldset id="group36">
+        <!-- komedyen -->
+        <h2>Yılın komedyeni</h2>
+        <input type="radio" name="q36" id="36.1" class="input-hidden" value="ali36" />
+        <label for="36.1">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KOMEDYEN/Ali Congun/1.jpg') }}" />
+            <div>Ali Congun</div>
+        </label>
+
+        <input type="radio" name="q36" id="36.2" class="input-hidden" value="baturay36" />
+        <label for="36.2">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KOMEDYEN/Baturay Özdemir/1.jpg') }}" />
+            <div>Baturay Özdemir</div>
+        </label>
+
+        <input type="radio" name="q36" id="36.3" class="input-hidden" value="cagla36" />
+        <label for="36.3">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KOMEDYEN/Çağla Alkan/1.jpeg') }}" />
+            <div>Çağla Alkan</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q36" id="36.4" class="input-hidden" value="cem36" />
+        <label for="36.4">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KOMEDYEN/Cem İşçiler/1.jpg') }}" />
+            <div>Cem İşçiler</div>
+        </label>
+
+        <input type="radio" name="q36" id="36.5" class="input-hidden" value="cihan36" />
+        <label for="36.5">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KOMEDYEN/Cihan Talay/1.jpg') }}" />
+            <div>Cihan Talay</div>
+        </label>
+
+        <input type="radio" name="q36" id="36.6" class="input-hidden" value="engin36" />
+        <label for="36.6">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KOMEDYEN/engin günaydın/1.png') }}" />
+            <div>Engin Günaydın</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q36" id="36.7" class="input-hidden" value="hasancan36" />
+        <label for="36.7">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KOMEDYEN/Hasan Can Kaya/1.jpg') }}" />
+            <div>Hasan Can Kaya</div>
+        </label>
+
+        <input type="radio" name="q36" id="36.8" class="input-hidden" value="ibrahim36" />
+        <label for="36.8">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KOMEDYEN/İbrahim Türker/1.jpeg') }}" />
+            <div>İbrahim Türker</div>
+        </label>
+
+        <input type="radio" name="q36" id="36.9" class="input-hidden" value="kaan36" />
+        <label for="36.9">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/KOMEDYEN/Kaan Sekban/1.webp') }}" />
+            <div>Kaan Sekban</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+    <fieldset id="group37">
+        <!-- müzik grubu -->
+        <h2>Yılın müzik grubu</h2>
+        <input type="radio" name="q37" id="37.1" class="input-hidden" value="adamlar37" />
+        <label for="37.1">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİK GRUBU/Adamlar/1.jpeg') }}" />
+            <div>Adamlar</div>
+        </label>
+
+        <input type="radio" name="q37" id="37.2" class="input-hidden" value="athena37" />
+        <label for="37.2">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİK GRUBU/Athena/1.jpg') }}" />
+            <div>Athena</div>
+        </label>
+
+        <input type="radio" name="q37" id="37.3" class="input-hidden" value="dktt37" />
+        <label for="37.3">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİK GRUBU/Dolu Kadehi Ters Tut/1.jpg') }}" />
+            <div>Dalo Kadehi Ters Tut</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q37" id="37.4" class="input-hidden" value="eskitilmis37" />
+        <label for="37.4">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİK GRUBU/Eskitilmiş Yaz/1.jpg') }}" />
+            <div>Eskitilmiş Yaz</div>
+        </label>
+
+        <input type="radio" name="q37" id="37.5" class="input-hidden" value="gripin37" />
+        <label for="37.5">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİK GRUBU/gripin/1.png') }}" style="background-color:black;" />
+            <div>gripin</div>
+        </label>
+
+        <input type="radio" name="q37" id="37.6" class="input-hidden" value="kendimden37" />
+        <label for="37.6">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİK GRUBU/Kendimden Hallice/1.jpg') }}" />
+            <div>Kendimden Hallice</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q37" id="37.7" class="input-hidden" value="madrigal37" />
+        <label for="37.7">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİK GRUBU/madrigal/1.jpg') }}" />
+            <div>Madrigal</div>
+        </label>
+
+        <input type="radio" name="q37" id="37.8" class="input-hidden" value="manga37" />
+        <label for="37.8">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİK GRUBU/Manga/1.jpeg') }}" />
+            <div>Manga</div>
+        </label>
+
+        <input type="radio" name="q37" id="37.9" class="input-hidden" value="maryjane37" />
+        <label for="37.9">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİK GRUBU/Mary Jane/1.jpeg') }}" />
+            <div>Mary Jane</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q37" id="37.10" class="input-hidden" value="mavigri37" />
+        <label for="37.10">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİK GRUBU/Mavi Gri/1.jpeg') }}" />
+            <div>Mavi Gri</div>
+        </label>
+
+        <input type="radio" name="q37" id="37.11" class="input-hidden" value="mfo37" />
+        <label for="37.11">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİK GRUBU/MFÖ/1.jpg') }}" />
+            <div>MFÖ</div>
+        </label>
+
+        <input type="radio" name="q37" id="37.12" class="input-hidden" value="pera37" />
+        <label for="37.12">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİK GRUBU/Pera/1.jpg') }}" />
+            <div>Pera</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q37" id="37.13" class="input-hidden" value="pinhani37" />
+        <label for="37.13">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİK GRUBU/Pinhani/1.png') }}" />
+            <div>Pinhani</div>
+        </label>
+
+        <input type="radio" name="q37" id="37.14" class="input-hidden" value="sakiler37" />
+        <label for="37.14">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİK GRUBU/Sakiler/1.png') }}" style="background-color: white;"/>
+            <div>Sakiler</div>
+        </label>
+
+        <input type="radio" name="q37" id="37.15" class="input-hidden" value="skapova37" />
+        <label for="37.15">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİK GRUBU/Skapova/1.jpg') }}" />
+            <div>Skapova</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q37" id="37.16" class="input-hidden" value="sufle37" />
+        <label for="37.16">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİK GRUBU/sufle/1.jpeg') }}" />
+            <div>Sufle <br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+
+        <input type="radio" name="q37" id="37.17" class="input-hidden" value="tnk37" />
+        <label for="37.17">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİK GRUBU/TNK/1.jpg') }}" />
+            <div>TNK <br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+
+        <input type="radio" name="q37" id="37.18" class="input-hidden" value="yyk37" />
+        <label for="37.18">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİK GRUBU/Yüzyüzeyken Konuşuruz/1.jpeg') }}" />
+            <div>Yüzyüzeyken <br>Konuşuruz</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q37" id="37.19" class="input-hidden" value="dedub37" />
+        <label for="37.19">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİK GRUBU/dedublüman/1.jpeg') }}" />
+            <div>Dedublüman</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+    <fieldset id="group38">
+        <!-- müzisyen -->
+        <h2>Yılın müzisyeni</h2>
+        <input type="radio" name="q38" id="38.1" class="input-hidden" value="batu38" />
+        <label for="38.1">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİSYEN/batuhan kordel/1.jpg') }}" />
+            <div>Batuhan Kordel</div>
+        </label>
+
+        <input type="radio" name="q38" id="38.2" class="input-hidden" value="canbonomo38" />
+        <label for="38.2">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİSYEN/Can Bonomo/1.jpeg') }}" />
+            <div>Can Bonomo</div>
+        </label>
+
+        <input type="radio" name="q38" id="38.3" class="input-hidden" value="cankazaz38" />
+        <label for="38.3">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİSYEN/Can Kazaz/1.jpg') }}" />
+            <div>Can Kazaz</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q38" id="38.4" class="input-hidden" value="canozan38" />
+        <label for="38.4">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİSYEN/canozan/1.jpg') }}" />
+            <div>Can Ozan</div>
+        </label>
+
+        <input type="radio" name="q38" id="38.5" class="input-hidden" value="ceylan38" />
+        <label for="38.5">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİSYEN/Ceylan Ertem/1.jpg') }}" />
+            <div>Ceylan Ertem</div>
+        </label>
+
+        <input type="radio" name="q38" id="38.6" class="input-hidden" value="derya38" />
+        <label for="38.6">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİSYEN/Derya Uluğ/1.jpeg') }}" />
+            <div>Derya Uluğ</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q38" id="38.7" class="input-hidden" value="eda38" />
+        <label for="38.7">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİSYEN/Eda Baba/1.jpg') }}" />
+            <div>Eda Baba</div>
+        </label>
+
+        <input type="radio" name="q38" id="38.8" class="input-hidden" value="ekin38" />
+        <label for="38.8">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİSYEN/Ekin Beril/1.jpg') }}" />
+            <div>Ekin Beril</div>
+        </label>
+
+        <input type="radio" name="q38" id="38.9" class="input-hidden" value="fatma38" />
+        <label for="38.9">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİSYEN/Fatma Turgut/1.jpg') }}" />
+            <div>Fatma Turgut</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q38" id="38.10" class="input-hidden" value="gaye38" />
+        <label for="38.10">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİSYEN/Gaye Su Akyol/1.png') }}" />
+            <div>Gaye Su Akyol</div>
+        </label>
+
+        <input type="radio" name="q38" id="38.11" class="input-hidden" value="gokhan38" />
+        <label for="38.11">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİSYEN/Gökhan Türkmen/1.jpg') }}" />
+            <div>Gökhan Türkmen</div>
+        </label>
+
+        <input type="radio" name="q38" id="38.12" class="input-hidden" value="haluk38" />
+        <label for="38.12">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİSYEN/Haluk Levent/1.jpg') }}" />
+            <div>Haluk Levent</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q38" id="38.13" class="input-hidden" value="melek38" />
+        <label for="38.13">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİSYEN/Melek Mosso/1.jpg') }}" />
+            <div>Melek Mosso</div>
+        </label>
+
+        <input type="radio" name="q38" id="38.14" class="input-hidden" value="melike38" />
+        <label for="38.14">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİSYEN/Melike Şahin/1.jpg') }}" />
+            <div>Melike Şahin</div>
+        </label>
+
+        <input type="radio" name="q38" id="38.15" class="input-hidden" value="nil38" />
+        <label for="38.15">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİSYEN/Nilipek/1.jpg') }}" />
+            <div>Nilipek</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q38" id="38.16" class="input-hidden" value="nova38" />
+        <label for="38.16">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİSYEN/Nova Norda/1.jpeg') }}" />
+            <div>Nova Norda</div>
+        </label>
+
+        <input type="radio" name="q38" id="38.17" class="input-hidden" value="sedef38" />
+        <label for="38.17">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİSYEN/Sedef Sebüktekin/1.jpeg') }}" />
+            <div>Sedef Sebüktekin</div>
+        </label>
+
+        <input type="radio" name="q38" id="38.18" class="input-hidden" value="sena38" />
+        <label for="38.18">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİSYEN/Sena Şener/1.png') }}" style="background-color: white;"/>
+            <div>Sena Şener</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q38" id="38.19" class="input-hidden" value="cagan38" />
+        <label for="38.19">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİSYEN/Çağan Şengül/1.jpg') }}"/>
+            <div>Çağan Şengül</div>
+        </label>
+
+        <input type="radio" name="q38" id="38.20" class="input-hidden" value="mabel38" />
+        <label for="38.20">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/MÜZİSYEN/Çağan Şengül/2.jpeg') }}"/>
+            <div>Mabel Matiz</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+    <fieldset id="group39">
+        <!-- podcast -->
+        <h2>Yılın podcasti</h2>
+        <input type="radio" name="q39" id="39.1" class="input-hidden" value="anlatamadım39" />
+        <label for="39.1">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/PODCAST/Anlatamadım/1.png') }}" />
+            <div>Anlatamadı <br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+
+        <input type="radio" name="q39" id="39.2" class="input-hidden" value="duk39" />
+        <label for="39.2">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/PODCAST/Dilimin Ucunda Kelimeler/1.jpg') }}" />
+            <div>Dilimin Ucunda <br> Kelimeler</div>
+        </label>
+
+        <input type="radio" name="q39" id="39.3" class="input-hidden" value="karanlık39" />
+        <label for="39.3">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/PODCAST/Karanlık Dosyalar/1.jpg') }}" />
+            <div>Karanlık Dosyalar <br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+        <br>
+
+        <input type="radio" name="q39" id="39.4" class="input-hidden" value="kiy39" />
+        <label for="39.4">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/PODCAST/Kendimiz İçin Yapıyoruz/1.jpg') }}" />
+            <div>Kendimiz İçin <br> Yapıyoruz</div>
+        </label>
+
+        <input type="radio" name="q39" id="39.5" class="input-hidden" value="lb39" />
+        <label for="39.5">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/PODCAST/Lüzumsuz Bilgiler/1.jpeg') }}" />
+            <div>Lüzumsuz Bilgiler <br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+
+        <input type="radio" name="q39" id="39.6" class="input-hidden" value="mi39" />
+        <label for="39.6">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/PODCAST/Mitolojik İnciler/1.jpg') }}" />
+            <div>Mitolojik İnciler <br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+        <br>
+
+        <input type="radio" name="q39" id="39.7" class="input-hidden" value="otm39" />
+        <label for="39.7">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/PODCAST/O Tarz Mı/1.png') }}" />
+            <div>O Tarz Mı <br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+
+        <input type="radio" name="q39" id="39.8" class="input-hidden" value="oysh39" />
+        <label for="39.8">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/PODCAST/Olay Yeri_ Suç Hikayeleri/1.jpg') }}" />
+            <div>Olay Yeri Suç <br> Hikayeleri</div>
+        </label>
+
+        <input type="radio" name="q39" id="39.9" class="input-hidden" value="osb39" />
+        <label for="39.9">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/PODCAST/Ortamlarda Satılacak Bilgi/1.png') }}" />
+            <div>Ortamlarda Satılacak <br> Bilgi</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q39" id="39.10" class="input-hidden" value="uad39" />
+        <label for="39.10">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/PODCAST/UAD/1.jpg') }}" />
+            <div>UAD</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+    <fieldset id="group40">
+        <!-- rap şarkıcısı -->
+        <h2>Yılın rap şarkıcısı</h2>
+        <input type="radio" name="q40" id="40.1" class="input-hidden" value="anil40" />
+        <label for="40.1">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/RAP ŞARKICISI/Anıl Piyancı/1.jpg') }}" />
+            <div>Anıl Piyancı</div>
+        </label>
+
+        <input type="radio" name="q40" id="40.2" class="input-hidden" value="cakal40" />
+        <label for="40.2">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/RAP ŞARKICISI/Çakal/1.png') }}" />
+            <div>Çakal</div>
+        </label>
+
+        <input type="radio" name="q40" id="40.3" class="input-hidden" value="eypio40" />
+        <label for="40.3">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/RAP ŞARKICISI/Eypio/1.jpg') }}" />
+            <div>Eypio</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q40" id="40.4" class="input-hidden" value="joker40" />
+        <label for="40.4">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/RAP ŞARKICISI/Joker/1.jpg') }}" />
+            <div>Joker</div>
+        </label>
+
+        <input type="radio" name="q40" id="40.5" class="input-hidden" value="kozmos40" />
+        <label for="40.5">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/RAP ŞARKICISI/Kozmos/1.jpg') }}" />
+            <div>Kozmos</div>
+        </label>
+
+        <input type="radio" name="q40" id="40.6" class="input-hidden" value="motive40" />
+        <label for="40.6">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/RAP ŞARKICISI/Motive/1.jpg') }}" />
+            <div>Motive</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q40" id="40.7" class="input-hidden" value="sefo40" />
+        <label for="40.7">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/RAP ŞARKICISI/Sefo/1.jpg') }}" />
+            <div>Sefo</div>
+        </label>
+
+        <input type="radio" name="q40" id="40.8" class="input-hidden" value="def40" />
+        <label for="40.8">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/RAP ŞARKICISI/Defkhan/1.jpg') }}" />
+            <div>Defkhan</div>
+        </label>
+
+        <input type="radio" name="q40" id="40.9" class="input-hidden" value="norm40" />
+        <label for="40.9">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/RAP ŞARKICISI/Sefo/2.jpg') }}" />
+            <div>Norm Ender</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+    <fieldset id="group41">
+        <!-- sahne sanatları -->
+        <h2>Yılın en iyi sahne sanatı</h2>
+        <input type="radio" name="q41" id="41.1" class="input-hidden" value="alice41" />
+        <label for="41.1">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SAHNE SANATLARI/Alice Müzikali/1.jpg') }}" />
+            <div>Alice Müzikali <br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+
+        <input type="radio" name="q41" id="41.2" class="input-hidden" value="amadeus41" />
+        <label for="41.2">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SAHNE SANATLARI/AMADEUS/1.jpg') }}" />
+            <div>AMADEUS <br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+
+        <input type="radio" name="q41" id="41.3" class="input-hidden" value="deli41" />
+        <label for="41.3">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SAHNE SANATLARI/Bir Delinin Hatıra Defteri/1.jpeg') }}" />
+            <div>Bir Delinin Hatıra <br> Defteri</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q41" id="41.4" class="input-hidden" value="cift41" />
+        <label for="41.4">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SAHNE SANATLARI/Çift Terapisi/1.jpg') }}" />
+            <div>Çift Terapisi</div>
+        </label>
+
+        <input type="radio" name="q41" id="41.5" class="input-hidden" value="dans41" />
+        <label for="41.5">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SAHNE SANATLARI/Dansın Ritmi/1.png') }}" />
+            <div>Dansın Ritmi</div>
+        </label>
+
+        <input type="radio" name="q41" id="41.6" class="input-hidden" value="jh41" />
+        <label for="41.6">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SAHNE SANATLARI/Jekyll _ Hyde/1.png') }}" />
+            <div>Jekyll & Hyde</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q41" id="41.7" class="input-hidden" value="konusanlar41" />
+        <label for="41.7">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SAHNE SANATLARI/Konuşanlar/1.jpg') }}" />
+            <div>Konuşanlar <br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+
+        <input type="radio" name="q41" id="41.8" class="input-hidden" value="evdetiyatro41" />
+        <label for="41.8">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SAHNE SANATLARI/Metin Zakoğlu İle Evde Tiyatro/1.jpeg') }}" />
+            <div>Metin Zakoğlu ile <br> Evde Tiyatro</div>
+        </label>
+
+        <input type="radio" name="q41" id="41.9" class="input-hidden" value="richard41" />
+        <label for="41.9">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SAHNE SANATLARI/Richard/1.jpeg') }}" />
+            <div>Richard <br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+        <br>
+
+        <input type="radio" name="q41" id="41.10" class="input-hidden" value="salih41" />
+        <label for="41.10">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SAHNE SANATLARI/Salih Tıraş İle Yöresel Tatlar/1.jpeg') }}" />
+            <div>Salih Tıraş ile <br> Yöresel Tatlar</div>
+        </label>
+
+        <input type="radio" name="q41" id="41.11" class="input-hidden" value="armağan41" />
+        <label for="41.11">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SAHNE SANATLARI/Armağan Çağlayan ile  Size Anlatacaklarım Var/1.jpg') }}" />
+            <div>Armağan Çağlayan ile <br> Size Anlatacaklarım Var</div>
+        </label>
+
+        <input type="radio" name="q41" id="41.12" class="input-hidden" value="mahser41" />
+        <label for="41.12">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SAHNE SANATLARI/Mahşer-i Cümbüş/1.png') }}" />
+            <div>Armağan Çağlayan ile <br> Size Anlatacaklarım Var</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+    <fieldset id="group42">
+        <!-- single -->
+        <h2>Yılın single'ı</h2>
+        <input type="radio" name="q42" id="42.1" class="input-hidden" value="athena42" />
+        <label for="42.1">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SINGLE/Athena - Haklıyız KAzanacağız/1.jpg') }}" />
+            <div>Athena - Haklıyız <br> Kazanacağız</div>
+        </label>
+
+        <input type="radio" name="q42" id="42.2" class="input-hidden" value="birileri42" />
+        <label for="42.2">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SINGLE/Birileri - Memleket/1.jpg') }}" />
+            <div>Birileri - Memleket <br><div style="color:rgb(255, 255, 255);">.</div> </div>
+        </label>
+
+        <input type="radio" name="q42" id="42.3" class="input-hidden" value="cakal42" />
+        <label for="42.3">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SINGLE/Çakal - İmdat/1.png') }}" />
+            <div>Çakal - İmdat <br><div style="color:rgb(255, 255, 255);">.</div> </div>
+        </label>
+        <br>
+
+        <input type="radio" name="q42" id="42.4" class="input-hidden" value="fatma42" />
+        <label for="42.4">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SINGLE/Çakal x Fatma Turgut - Kalbe Zarar/1.jpg') }}" />
+            <div>Çakal x Fatma Turgut<br>Kalbe Zarar</div>
+        </label>
+
+        <input type="radio" name="q42" id="42.5" class="input-hidden" value="canbonomo42" />
+        <label for="42.5">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SINGLE/Can Bonomo - Gazapistan/1.jpeg') }}" />
+            <div>Can Bonomo<br>Gazapistan</div>
+        </label>
+
+        <input type="radio" name="q42" id="42.6" class="input-hidden" value="cankazaz42" />
+        <label for="42.6">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SINGLE/Can Kazaz- Gidemem/1.jpg') }}" />
+            <div>Can Kazaz <br>Gidemem </div>
+        </label>
+        <br>
+
+        <input type="radio" name="q42" id="42.7" class="input-hidden" value="canozan42" />
+        <label for="42.7">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SINGLE/Canozan - Üzdünüz Beni/1.jpg') }}" />
+            <div>Can Ozan <br>Üzdünüz Beni <br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+
+        <input type="radio" name="q42" id="42.8" class="input-hidden" value="dktt42" />
+        <label for="42.8">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SINGLE/Dolu Kadehi Ters Tut x Ozbi - Bayılırız Deliliğe/1.jpg') }}" />
+            <div>Dolu Kadehi Ters <br>Tut x Ozbi - Bayılırız <br>Deliliğe </div>
+        </label>
+
+        <input type="radio" name="q42" id="42.9" class="input-hidden" value="gtbilmem42" />
+        <label for="42.9">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SINGLE/Gökhan Türkmen - Bilmem/1.jpg') }}" />
+            <div>Gökhan Türkmen <br>Bilmem<br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+        <br>
+
+        <input type="radio" name="q42" id="42.10" class="input-hidden" value="gtmahser42" />
+        <label for="42.10">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SINGLE/Gökhan Türkmen - Mahşer/1.jpg') }}" />
+            <div>Gökhan Türkmen <br>Mahşer<br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+
+        <input type="radio" name="q42" id="42.11" class="input-hidden" value="kh42" />
+        <label for="42.11">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SINGLE/Kendimden Hallice - Balık Olsam Tutar mıydın_/1.jpg') }}" />
+            <div>Kendimden Hallice <br>Balık Olsam <br>Tutar Mıydın</div>
+        </label>
+
+        <input type="radio" name="q42" id="42.12" class="input-hidden" value="kozmos42" />
+        <label for="42.12">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SINGLE/Kozmos-Hoşçakal/1.jpg') }}" />
+            <div>Kozmos <br>Hoşçakal<br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+        <br>
+
+        <input type="radio" name="q42" id="42.13" class="input-hidden" value="mgecme42" />
+        <label for="42.13">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SINGLE/Madrigal - Geçme Artık Sokağımdan/1.png') }}" />
+            <div>Madrigal - Geçme<br>Artık Sokağımdan<br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+
+        <input type="radio" name="q42" id="42.14" class="input-hidden" value="msenden42" />
+        <label for="42.14">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SINGLE/Madrigal - Senden Yoksun/1.jpg') }}" />
+            <div>Madrigal - Senden <br>Yoksun<br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+
+        <input type="radio" name="q42" id="42.15" class="input-hidden" value="maviolumle42" />
+        <label for="42.15">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SINGLE/Mavi Gri-Ölümle yaşam Arasında/1.jpeg') }}" />
+            <div>Mavi Gri <br>Ölümle Yaşam<br>Arasında</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q42" id="42.16" class="input-hidden" value="msevda42" />
+        <label for="42.16">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SINGLE/Mavi Gri-Sevda Yüklü Kervanlar/1.jpeg') }}" />
+            <div>Mavi Gri <br>Sevda Yüklü<br>Kervanlar</div>
+        </label>
+
+        <input type="radio" name="q42" id="42.17" class="input-hidden" value="pinhani42" />
+        <label for="42.17">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SINGLE/Pinhani - Bilir O Beni/1.jpg') }}" />
+            <div>Pinhani - Bilir <br>O Beni<br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+
+        <input type="radio" name="q42" id="42.18" class="input-hidden" value="sakiler42" />
+        <label for="42.18">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SINGLE/Sakiler- Yalanı Bırak/1.png') }}" style="background-color: white;"/>
+            <div>Sakiler<br>Yalanı Bırak<br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+        <br>
+
+        <input type="radio" name="q42" id="42.19" class="input-hidden" value="sefoisa42" />
+        <label for="42.19">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SINGLE/Sefo - Isabelle/1.jpg') }}" />
+            <div>Sefo <br>Isabelle<br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+
+        <input type="radio" name="q42" id="42.20" class="input-hidden" value="sefokor42" />
+        <label for="42.20">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SINGLE/Sefo - Kördüğüm/1.jpg') }}" />
+            <div>Sefo <br>Kördüğüm<br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+
+        <input type="radio" name="q42" id="42.21" class="input-hidden" value="sena42" />
+        <label for="42.21">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SINGLE/Sena Şener - Porselen Kalbim/1.png') }}" style="background-color: white;"/>
+            <div>Sena Şener <br>Porselen Kalbim<br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+        <br>
+
+        <input type="radio" name="q42" id="42.22" class="input-hidden" value="skapova42" />
+        <label for="42.22">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SINGLE/Skapova - Son Arzum/1.jpg') }}" />
+            <div>Skapova<br>Son Arzum</div>
+        </label>
+
+        <input type="radio" name="q42" id="42.23" class="input-hidden" value="sufleiyi42" />
+        <label for="42.23">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SINGLE/sufle iyi değilim/1.jpg') }}" />
+            <div>Sufle<br>İyi Değilim</div>
+        </label>
+        
+        <input type="radio" name="q42" id="42.24" class="input-hidden" value="suflepanik42" />
+        <label for="42.24">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SINGLE/sufle- panik ataklar/1.jpg') }}" />
+            <div>Sufle<br>Panik Ataklar</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q42" id="42.25" class="input-hidden" value="eydeliyim42" />
+        <label for="42.25">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SINGLE/eskitilmiş yaz - deliyim/1.jpg') }}" />
+            <div>Eskitilmiş Yaz<br>Deliyim <br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+
+        <input type="radio" name="q42" id="42.26" class="input-hidden" value="eynso42" />
+        <label for="42.26">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SINGLE/eskitilmiş yaz - nasıl sabah olacak/1.jpg') }}" />
+            <div>Eskitilmiş Yaz<br>Nasıl Sabah <br>Olacak</div>
+        </label>
+
+        <input type="radio" name="q42" id="42.27" class="input-hidden" value="yykda42" />
+        <label for="42.27">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SINGLE/yyk - Durmaz Akar/1.png') }}"/>
+            <div>Yüzyüzeyken<br>Konuşuruz <br>Durmaz Akar</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q42" id="42.28" class="input-hidden" value="novabas42" />
+        <label for="42.28">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SINGLE/Nova Norda/1.png') }}" />
+            <div>Nova Norda<br>Bas Git</div>
+        </label>
+
+        <input type="radio" name="q42" id="42.29" class="input-hidden" value="anilemre42" />
+        <label for="42.29">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SINGLE/Anıl Emre Daldal - Kayboldun/1.jpg') }}" />
+            <div>Anıl Emre Daldal<br>Kayboldun</div>
+        </label>
+
+        <input type="radio" name="q42" id="42.30" class="input-hidden" value="cansustum42" />
+        <label for="42.30">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SINGLE/Can Bonomo - Gazapistan/1.jpeg') }}" />
+            <div>Can Bonomo<br>Sustum</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q42" id="42.31" class="input-hidden" value="pinhanisb42" />
+        <label for="42.31">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SINGLE/Pinhani - Bilir O beni/2.jpeg') }}" />
+            <div>Pinhani<br>Şimdi Başka</div>
+        </label>
+
+        <input type="radio" name="q42" id="42.32" class="input-hidden" value="tnkyc42" />
+        <label for="42.32">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SINGLE/tnk/1.jpeg') }}" />
+            <div>Tnk<br>Yok Çaresi</div>
+        </label>
+
+        <input type="radio" name="q42" id="42.33" class="input-hidden" value="ft42" />
+        <label for="42.33">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SINGLE/ft/1.jpeg') }}" />
+            <div>Fatma Turgut<br>İkimizden Biri</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q42" id="42.34" class="input-hidden" value="anil42" />
+        <label for="42.34">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SINGLE/anıl/1.jpeg') }}" />
+            <div>Anıl Piyancı<br>Adios Amigo</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+    <fieldset id="group43">
+        <!-- spiker sunucu -->
+        <h2>Yılın sunucusu</h2>
+        <input type="radio" name="q43" id="43.1" class="input-hidden" value="ali43" />
+        <label for="43.1">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SPİKER_SUNUCU/Ali İhsan Varol/1.jpg') }}" />
+            <div>Ali İhsan Varol</div>
+        </label>
+
+        <input type="radio" name="q43" id="43.2" class="input-hidden" value="candas43" />
+        <label for="43.2">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SPİKER_SUNUCU/Candaş Tolga Işık/1.png') }}" />
+            <div>Candaş Tolga Işık</div>
+        </label>
+
+        <input type="radio" name="q43" id="43.3" class="input-hidden" value="ibrahim43" />
+        <label for="43.3">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SPİKER_SUNUCU/İbrahim Selim/1.jpg') }}" />
+            <div>İbrahim Selim</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q43" id="43.4" class="input-hidden" value="kaan43" />
+        <label for="43.4">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SPİKER_SUNUCU/Kaan Kural/1.jpg') }}" />
+            <div>Kaan Kural</div>
+        </label>
+
+        <input type="radio" name="q43" id="43.5" class="input-hidden" value="tijen43" />
+        <label for="43.5">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SPİKER_SUNUCU/Tijen Karaş/1.webp') }}" />
+            <div>Tijen Karaş</div>
+        </label>
+
+        <input type="radio" name="q43" id="43.6" class="input-hidden" value="zuhal43" />
+        <label for="43.6">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SPİKER_SUNUCU/Zuhal Topal/1.png') }}" />
+            <div>Zuhal Topal</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q43" id="43.7" class="input-hidden" value="ertem43" />
+        <label for="43.7">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SPİKER_SUNUCU/Ertem Şener/1.png') }}" />
+            <div>Ertem Şener</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+    <fieldset id="group44">
+        <!-- spor programı -->
+        <h2>Yılın spor programı</h2>
+        <input type="radio" name="q44" id="44.1" class="input-hidden" value="aynen44" />
+        <label for="44.1">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SPOR PROGRAMI/Aynen Öyle/1.jpeg') }}" />
+            <div>Aynen Öyle</div>
+        </label>
+
+        <input type="radio" name="q44" id="44.2" class="input-hidden" value="derin44" />
+        <label for="44.2">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SPOR PROGRAMI/Derin Futbol/1.jpg') }}" />
+            <div>Derin Futbol</div>
+        </label>
+
+        <input type="radio" name="q44" id="44.3" class="input-hidden" value="beyaz44" />
+        <label for="44.3">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/SPOR PROGRAMI/Derin Futbol/2.jpeg') }}" />
+            <div>Beyaz Futbol</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+    <fieldset id="group45">
+        <!-- tiyatro -->
+        <h2>Yılın tiyatro oyunu</h2>
+        <input type="radio" name="q45" id="45.1" class="input-hidden" value="8045" />
+        <label for="45.1">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TİYATRO/80 Günde Devri Alem/1.png') }}" />
+            <div>80 Günde Devri Alem <br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+
+        <input type="radio" name="q45" id="45.2" class="input-hidden" value="deli45" />
+        <label for="45.2">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TİYATRO/Bir Delinin Hatıra Defteri/1.jpeg') }}" />
+            <div>Bir Delinin <br>Hatıra Defteri</div>
+        </label>
+
+        <input type="radio" name="q45" id="45.3" class="input-hidden" value="freud45" />
+        <label for="45.3">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TİYATRO/Freud_un İnsanları/1.jpg') }}" />
+            <div>Freud'un İnsanları <br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+        <br>
+
+        <input type="radio" name="q45" id="45.4" class="input-hidden" value="hayat45" />
+        <label for="45.4">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TİYATRO/Hayat Kime Güzel_/1.jpg') }}" />
+            <div>Hayat Kime Güzel</div>
+        </label>
+
+        <input type="radio" name="q45" id="45.5" class="input-hidden" value="hicbir45" />
+        <label for="45.5">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TİYATRO/Hiçbir Şey/1.png') }}" />
+            <div>Hiçbir Şey</div>
+        </label>
+
+        <input type="radio" name="q45" id="45.6" class="input-hidden" value="hitler45" />
+        <label for="45.6">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TİYATRO/Hitlerin Hatıra Defteri/1.jpg') }}" />
+            <div>Hitlerin Hatıra Defteri</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q45" id="45.7" class="input-hidden" value="hircin45" />
+        <label for="45.7">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TİYATRO/Hırçın Kız/1.png') }}" />
+            <div>Hırçın Kız</div>
+        </label>
+
+        <input type="radio" name="q45" id="45.8" class="input-hidden" value="istibdat45" />
+        <label for="45.8">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TİYATRO/İstibdat Kumpanyası/1.jpg') }}" />
+            <div>İstibdat Kumpanyası</div>
+        </label>
+
+        <input type="radio" name="q45" id="45.9" class="input-hidden" value="richard45" />
+        <label for="45.9">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TİYATRO/Richard/1.jpeg') }}" />
+            <div>Richard</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q45" id="45.10" class="input-hidden" value="siddet45" />
+        <label for="45.10">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TİYATRO/Şiddet Dersi/1.jpeg') }}" />
+            <div>Şiddet Dersi<br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+
+        <input type="radio" name="q45" id="45.11" class="input-hidden" value="sinyal45" />
+        <label for="45.11">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TİYATRO/Sinyal/1.png') }}" />
+            <div>Sinyal<br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+
+        <input type="radio" name="q45" id="45.12" class="input-hidden" value="uykusuz45" />
+        <label for="45.12">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TİYATRO/Uykusuz Gecelerimin Hamleti/1.jpg') }}" />
+            <div>Uykusuz Gecelerimin<br>Hamleti</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q45" id="45.13" class="input-hidden" value="pinokyo45" />
+        <label for="45.13">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TİYATRO/Yetişkinler İçin Pinokyo/1.jpeg') }}" />
+            <div>Yetişkinler İçin Pinokyo</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+    <fieldset id="group46">
+        <!-- tv dizi -->
+        <h2>Yılın televizyon dizisi</h2>
+        <input type="radio" name="q46" id="46.1" class="input-hidden" value="aldatmak46" />
+        <label for="46.1">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV DİZİ/Aldatmak/1.jpg') }}" />
+            <div>Aldatmak<br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+
+        <input type="radio" name="q46" id="46.2" class="input-hidden" value="alparslan46" />
+        <label for="46.2">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV DİZİ/Alparslan Büyük Selçuklu/1.jpg') }}" />
+            <div>Alparslan<br>Büyük Selçuklu</div>
+        </label>
+
+        <input type="radio" name="q46" id="46.3" class="input-hidden" value="baba46" />
+        <label for="46.3">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV DİZİ/Baba/1.jpg') }}" />
+            <div>Baba<br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+        <br>
+
+        <input type="radio" name="q46" id="46.4" class="input-hidden" value="cam46" />
+        <label for="46.4">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV DİZİ/Camdaki Kız/1.jpg') }}" />
+            <div>Camdaki Kız</div>
+        </label>
+
+        <input type="radio" name="q46" id="46.5" class="input-hidden" value="darmaduman46" />
+        <label for="46.5">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV DİZİ/Darmaduman/1.jpg') }}" />
+            <div>Darmaduman</div>
+        </label>
+
+        <input type="radio" name="q46" id="46.6" class="input-hidden" value="destan46" />
+        <label for="46.6">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV DİZİ/Destan/1.png') }}" />
+            <div>Destan</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q46" id="46.7" class="input-hidden" value="evlilik46" />
+        <label for="46.7">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV DİZİ/Evlilik Hakkında Her Şey/1.jpg') }}" />
+            <div>Evlilik Hakkında<br>Her Şey</div>
+        </label>
+
+        <input type="radio" name="q46" id="46.8" class="input-hidden" value="gonul46" />
+        <label for="46.8">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV DİZİ/Gönül Dağı/1.jpeg') }}" />
+            <div>Gönül Dağı<br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+
+        <input type="radio" name="q46" id="46.9" class="input-hidden" value="guzel46" />
+        <label for="46.9">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV DİZİ/Güzel Günler/1.jpg') }}" />
+            <div>Günler Günler<br><div style="color:rgb(255, 255, 255);">.</div></div>
+        </label>
+        <br>
+
+        <input type="radio" name="q46" id="46.10" class="input-hidden" value="kader46" />
+        <label for="46.10">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV DİZİ/Kaderimin Oyunu/1.jpg') }}" />
+            <div>Kaderimin Oyunu</div>
+        </label>
+
+        <input type="radio" name="q46" id="46.11" class="input-hidden" value="kardes46" />
+        <label for="46.11">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV DİZİ/Kardeşlerim/1.jpg') }}" />
+            <div>Kardeşlerim</div>
+        </label>
+
+        <input type="radio" name="q46" id="46.12" class="input-hidden" value="kasaba46" />
+        <label for="46.12">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV DİZİ/Kasaba Doktoru/1.jpg') }}" />
+            <div>Kasaba Doktoru</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q46" id="46.13" class="input-hidden" value="kirmizi46" />
+        <label for="46.13">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV DİZİ/Kırmızı Oda/1.jpg') }}" />
+            <div>Kırmızı Oda</div>
+        </label>
+
+        <input type="radio" name="q46" id="46.14" class="input-hidden" value="osman46" />
+        <label for="46.14">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV DİZİ/Kurululş Osman/1.png') }}" />
+            <div>Kuruluş Osman</div>
+        </label>
+
+        <input type="radio" name="q46" id="46.15" class="input-hidden" value="mahkum46" />
+        <label for="46.15">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV DİZİ/Mahkum/1.jpg') }}" />
+            <div>Mahkum</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q46" id="46.16" class="input-hidden" value="masumlar46" />
+        <label for="46.16">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV DİZİ/Masumlar Apartmanı/1.jpg') }}" />
+            <div>Masumlar Apartmanı</div>
+        </label>
+
+        <input type="radio" name="q46" id="46.17" class="input-hidden" value="seversin46" />
+        <label for="46.17">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV DİZİ/Seversin/1.jpg') }}" />
+            <div>Seversin</div>
+        </label>
+
+        <input type="radio" name="q46" id="46.18" class="input-hidden" value="sipahi46" />
+        <label for="46.18">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV DİZİ/SİPAHİ/1.png') }}" />
+            <div>Sipahi</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q46" id="46.19" class="input-hidden" value="teskilat46" />
+        <label for="46.19">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV DİZİ/Teşkilat/1.jpg') }}" />
+            <div>Teşkilat</div>
+        </label>
+
+        <input type="radio" name="q46" id="46.20" class="input-hidden" value="uc46" />
+        <label for="46.20">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV DİZİ/Üç Kuruş/1.jpg') }}" />
+            <div>Üç Kuruş</div>
+        </label>
+
+        <input type="radio" name="q46" id="46.21" class="input-hidden" value="yalı46" />
+        <label for="46.21">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV DİZİ/Yalı Çapkanı/1.jpg') }}" />
+            <div>Yalı Çapkını</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q46" id="46.22" class="input-hidden" value="yargı46" />
+        <label for="46.22">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV DİZİ/Yargı/1.jpg') }}" />
+            <div>Yargı</div>
+        </label>
+
+        <input type="radio" name="q46" id="46.23" class="input-hidden" value="karatahta46" />
+        <label for="46.23">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV DİZİ/Kara Tahta/1.jpg') }}" />
+            <div>Kara Tahta</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+    <fieldset id="group47">
+        <!-- tv kananlı -->
+        <h2>Yılın televizyon kanalı</h2>
+        <input type="radio" name="q47" id="47.1" class="input-hidden" value="fox47" />
+        <label for="47.1">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV KANALI/FOX/1.jpg') }}" />
+            <div>FOX</div>
+        </label>
+
+        <input type="radio" name="q47" id="47.2" class="input-hidden" value="d47" />
+        <label for="47.2">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV KANALI/Kanal D/1.jpeg') }}" />
+            <div>Kanal D</div>
+        </label>
+
+        <input type="radio" name="q47" id="47.3" class="input-hidden" value="show47" />
+        <label for="47.3">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV KANALI/SHOW TV/1.jpg') }}" />
+            <div>Show</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q47" id="47.4" class="input-hidden" value="star47" />
+        <label for="47.4">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV KANALI/Star TV/1.png') }}" style="background-color: white;"/>
+            <div>Star TV</div>
+        </label>
+
+        <input type="radio" name="q47" id="47.5" class="input-hidden" value="teve247" />
+        <label for="47.5">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV KANALI/Teve 2/1.png') }}" style="background-color: white;"/>
+            <div>Teve 2</div>
+        </label>
+
+        <input type="radio" name="q47" id="47.6" class="input-hidden" value="tv847" />
+        <label for="47.6">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV KANALI/TV8/1.png') }}" style="background-color: white;"/>
+            <div>TV8</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q47" id="47.7" class="input-hidden" value="beyaz47" />
+        <label for="47.7">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV KANALI/SHOW TV/2.jpeg') }}" />
+            <div>Beyaz TV</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+    <fieldset id="group48">
+        <!-- tv dijital program -->
+        <h2>Yılın televizyon&dijital programı</h2>
+        <input type="radio" name="q48" id="48.1" class="input-hidden" value="cghb48" />
+        <label for="48.1">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV_DİJİTAL PROGRAM/Çok Güzel Hareketler 2/1.jpg') }}" />
+            <div>Çok Güzel<br>Hareketler 2</div>
+        </label>
+
+        <input type="radio" name="q48" id="48.2" class="input-hidden" value="guldur48" />
+        <label for="48.2">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV_DİJİTAL PROGRAM/Güldür Güldür Show/1.jpg') }}" />
+            <div>Güldür Güldür<br>Show</div>
+        </label>
+
+        <input type="radio" name="q48" id="48.3" class="input-hidden" value="bugece48" />
+        <label for="48.3">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV_DİJİTAL PROGRAM/İbrahim Selim İle Bu Gece/1.png') }}" />
+            <div>İbrahim Selim ile<br>Bu Gece</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q48" id="48.4" class="input-hidden" value="kelime48" />
+        <label for="48.4">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV_DİJİTAL PROGRAM/Kelime Oyunu/1.jpg') }}" />
+            <div>Kelime Oyunu</div>
+        </label>
+
+        <input type="radio" name="q48" id="48.5" class="input-hidden" value="master48" />
+        <label for="48.5">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV_DİJİTAL PROGRAM/Masterchef/1.png') }}" style="background-color: white;"/>
+            <div>Masterchef</div>
+        </label>
+
+        <input type="radio" name="q48" id="48.6" class="input-hidden" value="oses48" />
+        <label for="48.6">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV_DİJİTAL PROGRAM/O Ses Türkiye/1.png') }}" />
+            <div>O Ses Türkiye</div>
+        </label>
+        <br>
+
+        <input type="radio" name="q48" id="48.7" class="input-hidden" value="survivor48" />
+        <label for="48.7">
+            <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/TV_DİJİTAL PROGRAM/Survivor/1.png') }}" style="background-color:black;"/>
+            <div>Survivor</div>
+        </label>
+    </fieldset>
+    <hr>
+    <br><br>
+    <fieldset id="group49">
+        <!-- yönetmen senarist -->
+        <h2>Yılın yönetmen&senaristi</h2>
+    </fieldset>
+    <input type="radio" name="q49" id="49.1" class="input-hidden" value="alperc49" />
+    <label for="49.1">
+        <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/YÖNETMEN_SENARİST/Alper Çağlar/1.jpg') }}" />
+        <div>Alper Çağlar</div>
+    </label>
+
+    <input type="radio" name="49" id="49.2" class="input-hidden" value="cagrib49" />
+    <label for="49.2">
+        <img src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/YÖNETMEN_SENARİST/çağrı bayrak/1.jpg') }}" />
+        <div>Çağrı Bayrak</div>
+    </label>
+
+    <input type="radio" name="q49" id="49.3" class="input-hidden" value="engingu49" />
+    <label for="49.3">
+        <img
+            src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/YÖNETMEN_SENARİST/Engin Günaydın/1.png') }}" />
+        <div>Engin Günaydın</div>
+    </label>
+    <br>
+
+    <input type="radio" name="q49" id="49.4" class="input-hidden" value="suleyman49" />
+    <label for="49.4">
+        <img
+            src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/YÖNETMEN_SENARİST/süleyman mert özdemir/1.jpg') }}" />
+        <div>Süleyman Mert Özdemir</div>
+    </label>
+
+    <input type="radio" name="q49" id="49.5" class="input-hidden" value="feyyaz49" />
+    <label for="49.5">
+        <img
+            src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/YÖNETMEN_SENARİST/Feyyaz Yiğit/1.jpg') }}" />
+        <div>Feyyaz Yiğit</div>
+    </label>
+
+    <input type="radio" name="q49" id="49.6" class="input-hidden" value="cagan49" />
+    <label for="49.6">
+        <img
+            src="{{ url_for('static', filename='images/KÜLTÜR-SANAT/YÖNETMEN_SENARİST/Çağan Irmak/1.jpg') }}" />
+        <div>Çağan Irmak</div>
+    </label>
+    <br>
+    <button type="submit" class="btn btn-primary">Oy Ver</button>
+    <hr>
+</form>
+</p>
+{%endblock body %}
